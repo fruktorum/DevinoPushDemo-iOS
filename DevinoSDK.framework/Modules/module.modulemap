@@ -1,0 +1,11 @@
+framework module DevinoSDK {
+  umbrella header "DevinoSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DevinoSDK.Swift {
+    header "DevinoSDK-Swift.h"
+    requires objc
+}
