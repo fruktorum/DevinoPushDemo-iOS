@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C9ADB0B233E60B800D4DD77 /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9ADB0A233E60B800D4DD77 /* DevinoSDK.framework */; };
-		4C9ADB0C233E60EC00D4DD77 /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9ADB0A233E60B800D4DD77 /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C552FDD2359D46400438A9D /* ViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C552FDC2359D46400438A9D /* ViewController+TextField.swift */; };
+		4C5E546C2358961600F6598D /* Hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E546B2358961600F6598D /* Hero.aiff */; };
+		4C5E54782358C39D00F6598D /* DeepLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */; };
+		4C6EC7152352006E00DE90A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC7142352006E00DE90A0 /* String.swift */; };
+		4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC71623520BD800DE90A0 /* UIViewController.swift */; };
+		4C9A9E59235DCF3E00E7D235 /* push_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A9E58235DCF3E00E7D235 /* push_sound.wav */; };
+		4CC0EFD324114588000BCF97 /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC0EFD224114588000BCF97 /* DevinoSDK.framework */; };
+		4CC0EFD42411458C000BCF97 /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC0EFD224114588000BCF97 /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */; };
 		6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */; };
 		6DB827AF20BF4A72005A3CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AE20BF4A72005A3CBA /* ViewController.swift */; };
 		6DB827B220BF4A72005A3CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B020BF4A72005A3CBA /* Main.storyboard */; };
 		6DB827B420BF4A73005A3CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B320BF4A73005A3CBA /* Assets.xcassets */; };
 		6DB827B720BF4A73005A3CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B520BF4A73005A3CBA /* LaunchScreen.storyboard */; };
+		A33081DE23587FE600A9CECB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33081DD23587FE600A9CECB /* NotificationService.swift */; };
+		A33081E223587FE600A9CECB /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A33081DB23587FE600A9CECB /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A33081E023587FE600A9CECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB827A120BF4A72005A3CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33081DA23587FE600A9CECB;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		039090AD210AFE6300AE6851 /* Embed Frameworks */ = {
@@ -23,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4C9ADB0C233E60EC00D4DD77 /* DevinoSDK.framework in Embed Frameworks */,
+				4CC0EFD42411458C000BCF97 /* DevinoSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,8 +53,19 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				A33081E223587FE600A9CECB /* NotificationService.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36BE41523632503003F8681 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -43,7 +73,14 @@
 /* Begin PBXFileReference section */
 		03BFB92020D79AC700C89B10 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
-		4C9ADB0A233E60B800D4DD77 /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
+		4C552FDC2359D46400438A9D /* ViewController+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TextField.swift"; sourceTree = "<group>"; };
+		4C5E546B2358961600F6598D /* Hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Hero.aiff; sourceTree = "<group>"; };
+		4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkViewController.swift; sourceTree = "<group>"; };
+		4C6EC7142352006E00DE90A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4C6EC71623520BD800DE90A0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		4C9A9E58235DCF3E00E7D235 /* push_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push_sound.wav; sourceTree = "<group>"; };
+		4CC0EFD224114588000BCF97 /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
+		4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		6DB827A920BF4A72005A3CBA /* DevinoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB827AE20BF4A72005A3CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +89,9 @@
 		6DB827B620BF4A73005A3CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB827B820BF4A73005A3CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF52BBE20C740CB0004F1FD /* DevinoDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevinoDemo.entitlements; sourceTree = "<group>"; };
+		A33081DB23587FE600A9CECB /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33081DD23587FE600A9CECB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A33081DF23587FE600A9CECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +99,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9ADB0B233E60B800D4DD77 /* DevinoSDK.framework in Frameworks */,
+				4CC0EFD324114588000BCF97 /* DevinoSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33081D823587FE600A9CECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,17 +116,37 @@
 		03BFB91F20D79AC700C89B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C9ADB0A233E60B800D4DD77 /* DevinoSDK.framework */,
+				4CC0EFD224114588000BCF97 /* DevinoSDK.framework */,
 				03BFB92020D79AC700C89B10 /* UserNotifications.framework */,
 				03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4C5E546D2358A95A00F6598D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4C5E546B2358961600F6598D /* Hero.aiff */,
+				4C9A9E58235DCF3E00E7D235 /* push_sound.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		4CF906DB23509D12007B98A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */,
+				4C6EC7142352006E00DE90A0 /* String.swift */,
+				4C6EC71623520BD800DE90A0 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6DB827A020BF4A72005A3CBA = {
 			isa = PBXGroup;
 			children = (
 				6DB827AB20BF4A72005A3CBA /* DevinoDemo */,
+				A33081DC23587FE600A9CECB /* NotificationService */,
 				03BFB91F20D79AC700C89B10 /* Frameworks */,
 				6DB827AA20BF4A72005A3CBA /* Products */,
 			);
@@ -89,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				6DB827A920BF4A72005A3CBA /* DevinoDemo.app */,
+				A33081DB23587FE600A9CECB /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,14 +165,27 @@
 			isa = PBXGroup;
 			children = (
 				6DF52BBE20C740CB0004F1FD /* DevinoDemo.entitlements */,
+				6DB827B520BF4A73005A3CBA /* LaunchScreen.storyboard */,
+				6DB827B020BF4A72005A3CBA /* Main.storyboard */,
 				6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */,
 				6DB827AE20BF4A72005A3CBA /* ViewController.swift */,
-				6DB827B020BF4A72005A3CBA /* Main.storyboard */,
+				4C552FDC2359D46400438A9D /* ViewController+TextField.swift */,
+				4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */,
+				4C5E546D2358A95A00F6598D /* Sounds */,
+				4CF906DB23509D12007B98A9 /* Extensions */,
 				6DB827B320BF4A73005A3CBA /* Assets.xcassets */,
-				6DB827B520BF4A73005A3CBA /* LaunchScreen.storyboard */,
 				6DB827B820BF4A73005A3CBA /* Info.plist */,
 			);
 			path = DevinoDemo;
+			sourceTree = "<group>";
+		};
+		A33081DC23587FE600A9CECB /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				A33081DD23587FE600A9CECB /* NotificationService.swift */,
+				A33081DF23587FE600A9CECB /* Info.plist */,
+			);
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,11 +204,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				A33081E123587FE600A9CECB /* PBXTargetDependency */,
 			);
 			name = DevinoDemo;
 			productName = DevinoDemo;
 			productReference = 6DB827A920BF4A72005A3CBA /* DevinoDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A33081DA23587FE600A9CECB /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33081E323587FE600A9CECB /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				A33081D723587FE600A9CECB /* Sources */,
+				A33081D823587FE600A9CECB /* Frameworks */,
+				A33081D923587FE600A9CECB /* Resources */,
+				A36BE41523632503003F8681 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = A33081DB23587FE600A9CECB /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -135,8 +235,8 @@
 		6DB827A120BF4A72005A3CBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Alexej Nenastev";
 				TargetAttributes = {
 					6DB827A820BF4A72005A3CBA = {
@@ -149,6 +249,9 @@
 								enabled = 1;
 							};
 						};
+					};
+					A33081DA23587FE600A9CECB = {
+						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
@@ -166,6 +269,7 @@
 			projectRoot = "";
 			targets = (
 				6DB827A820BF4A72005A3CBA /* DevinoDemo */,
+				A33081DA23587FE600A9CECB /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +281,16 @@
 			files = (
 				6DB827B720BF4A73005A3CBA /* LaunchScreen.storyboard in Resources */,
 				6DB827B420BF4A73005A3CBA /* Assets.xcassets in Resources */,
+				4C9A9E59235DCF3E00E7D235 /* push_sound.wav in Resources */,
 				6DB827B220BF4A72005A3CBA /* Main.storyboard in Resources */,
+				4C5E546C2358961600F6598D /* Hero.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33081D923587FE600A9CECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +301,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5E54782358C39D00F6598D /* DeepLinkViewController.swift in Sources */,
+				4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */,
+				4C6EC7152352006E00DE90A0 /* String.swift in Sources */,
 				6DB827AF20BF4A72005A3CBA /* ViewController.swift in Sources */,
 				6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */,
+				4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */,
+				4C552FDD2359D46400438A9D /* ViewController+TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33081D723587FE600A9CECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33081DE23587FE600A9CECB /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A33081E123587FE600A9CECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33081DA23587FE600A9CECB /* NotificationService */;
+			targetProxy = A33081E023587FE600A9CECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6DB827B020BF4A72005A3CBA /* Main.storyboard */ = {
@@ -266,10 +400,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -320,9 +455,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -335,21 +471,27 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DevinoDemo/DevinoDemo.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DevinoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fruktorum.DevinoPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevinoPushDev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -361,22 +503,87 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DevinoDemo/DevinoDemo.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = TV4YN6VX49;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DevinoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fruktorum.DevinoPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A33081E423587FE600A9CECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = TV4YN6VX49;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fruktorum.DevinoPush.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A33081E523587FE600A9CECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = TV4YN6VX49;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fruktorum.DevinoPush.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -398,6 +605,15 @@
 			buildConfigurations = (
 				6DB827BC20BF4A73005A3CBA /* Debug */,
 				6DB827BD20BF4A73005A3CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33081E323587FE600A9CECB /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33081E423587FE600A9CECB /* Debug */,
+				A33081E523587FE600A9CECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

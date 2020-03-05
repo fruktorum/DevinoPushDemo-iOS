@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import UserNotifications
 import DevinoSDK
 
 @UIApplicationMain
@@ -15,22 +14,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    let devinoUNUserNotificationCenter = DevinoUNUserNotificationCenter()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        if #available(iOS 10.0, *) {
-            UNUserNotificationCenter.current().delegate = self
-        }
-        
-        let config = Devino.Configuration(key: "key=KjTeZZpPW4s63PpMEYpgKIj55DTACr8_Whqh5Rir")
+        // set Devino configurations:
+        let config = Devino.Configuration(key: "Key d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, geoDataSendindInterval: 1)
         Devino.shared.activate(with: config)
         Devino.shared.trackLaunchWithOptions(launchOptions)
+        // registration process with Apple Push Notification service:
         application.registerForRemoteNotifications()
- 
+        // assign delegate object to the UNUserNotificationCenter object:
+        UNUserNotificationCenter.current().delegate = devinoUNUserNotificationCenter
+        activateAppByTapOnNotification(launchOptions)
+        configureNotificationActions()
         return true
     }
 
     func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, for notification: UILocalNotification, completionHandler: @escaping () -> Void) {
-        Devino.shared.trackLocalNotification(notification, with: identifier)
+//        Devino.shared.trackLocalNotification(notification, with: identifier)
         completionHandler()
     }
 
@@ -41,28 +42,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Devino.shared.registerForNotification(deviceToken)
     }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        Devino.shared.trackAppLaunch()
+    }
     
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("PUSH JSON = \(userInfo)")
         Devino.shared.trackReceiveRemoteNotification(userInfo)
         completionHandler(.newData)
     }
     
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        Devino.shared.trackAppLaunch()
-    }
-}
-
-extension AppDelegate : UNUserNotificationCenterDelegate {
-    @available(iOS 10.0, *)
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        completionHandler([.alert, .badge, .sound])
+    private func configureNotificationActions() {
+        devinoUNUserNotificationCenter.setActionForUrl { str in 
+            if str == "devino://first" {
+                self.goToDeepLinkVC()
+            }
+        }
     }
     
-    @available(iOS 10.0, *)
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
-    {
-        Devino.shared.trackNotificationResponse(response)
-        completionHandler()
+    private func goToDeepLinkVC() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "deepLinkViewController") as! DeepLinkViewController
+        UIApplication.shared.windows.first?.rootViewController = vc
     }
- 
+    
+    private func activateAppByTapOnNotification(_ launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
+        if launchOptions?[UIApplicationLaunchOptionsKey.remoteNotification] != nil {
+            print("UIApplicationLaunchOptionsKey.remoteNotification: \(UIApplicationLaunchOptionsKey.remoteNotification.rawValue)")
+            if let options = launchOptions, let userInfo = options[UIApplication.LaunchOptionsKey.remoteNotification] as? [AnyHashable: Any] {
+                Devino.shared.trackReceiveRemoteNotification(userInfo)
+            }
+        }
+    }
 }
