@@ -39,9 +39,9 @@ class ViewController: UIViewController {
         configLogs(for: .close)
         Devino.shared.logger = { str in
             DispatchQueue.main.async {
-            print(str)
-            logText += str
-            self.logs.text = logText }}
+                print(str)
+                logText += str
+                self.logs.text = logText }}
     }
     
     override func viewDidLayoutSubviews() {
