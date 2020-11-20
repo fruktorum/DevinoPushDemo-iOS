@@ -13,8 +13,9 @@
 		4C6EC7152352006E00DE90A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC7142352006E00DE90A0 /* String.swift */; };
 		4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC71623520BD800DE90A0 /* UIViewController.swift */; };
 		4C9A9E59235DCF3E00E7D235 /* push_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A9E58235DCF3E00E7D235 /* push_sound.wav */; };
-		4CE6D4012448E291007A1386 /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE6D4002448E291007A1386 /* DevinoSDK.framework */; };
-		4CE6D4022448E297007A1386 /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE6D4002448E291007A1386 /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CC1ACE02565922700706F4E /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC1ACDE2565922700706F4E /* DevinoSDK.framework */; };
+		4CC1ACE12565926B00706F4E /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC1ACDE2565922700706F4E /* DevinoSDK.framework */; };
+		4CC1ACE22565926B00706F4E /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC1ACDE2565922700706F4E /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */; };
 		6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */; };
 		6DB827AF20BF4A72005A3CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AE20BF4A72005A3CBA /* ViewController.swift */; };
@@ -42,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4CE6D4022448E297007A1386 /* DevinoSDK.framework in Embed Frameworks */,
+				4CC1ACE22565926B00706F4E /* DevinoSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +80,7 @@
 		4C6EC7142352006E00DE90A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		4C6EC71623520BD800DE90A0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		4C9A9E58235DCF3E00E7D235 /* push_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push_sound.wav; sourceTree = "<group>"; };
-		4CE6D4002448E291007A1386 /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
+		4CC1ACDE2565922700706F4E /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
 		4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		6DB827A920BF4A72005A3CBA /* DevinoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE6D4012448E291007A1386 /* DevinoSDK.framework in Frameworks */,
+				4CC1ACE12565926B00706F4E /* DevinoSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC1ACE02565922700706F4E /* DevinoSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +118,7 @@
 		03BFB91F20D79AC700C89B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CE6D4002448E291007A1386 /* DevinoSDK.framework */,
+				4CC1ACDE2565922700706F4E /* DevinoSDK.framework */,
 				03BFB92020D79AC700C89B10 /* UserNotifications.framework */,
 				03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */,
 			);
