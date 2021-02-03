@@ -49,9 +49,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        print("PUSH JSON = \(userInfo)")
-        Devino.shared.trackReceiveRemoteNotification(userInfo)
+//        print("PUSH JSON = \(userInfo)")
+//        Devino.shared.trackReceiveRemoteNotification(userInfo)
         completionHandler(.newData)
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Push notifications Error - \(error.localizedDescription)")
     }
     
     private func configureNotificationActions() {
@@ -70,9 +74,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func activateAppByTapOnNotification(_ launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
         if launchOptions?[UIApplicationLaunchOptionsKey.remoteNotification] != nil {
-            print("UIApplicationLaunchOptionsKey.remoteNotification: \(UIApplicationLaunchOptionsKey.remoteNotification.rawValue)")
             if let options = launchOptions, let userInfo = options[UIApplication.LaunchOptionsKey.remoteNotification] as? [AnyHashable: Any] {
-                Devino.shared.trackReceiveRemoteNotification(userInfo)
+//                Devino.shared.trackReceiveRemoteNotification(userInfo)
             }
         }
     }
