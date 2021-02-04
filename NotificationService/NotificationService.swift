@@ -11,9 +11,9 @@ import UserNotifications
 
 class NotificationService: DevinoNotificationService {
     
-//    override var appGroupsId: String? {
-//        return "group.com.fruktorum.DevinoPush"
-//    }
+    override var appGroupsId: String? {
+        return "group.com.fruktorum.DevinoPush"
+    }
     
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         

@@ -14,11 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let appGroupId = "group.com.fruktorum.DevinoPush"
     let devinoUNUserNotificationCenter = DevinoUNUserNotificationCenter()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // set Devino configurations:
-        let config = Devino.Configuration(key: "Key d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, geoDataSendindInterval: 1)
+        let config = Devino.Configuration(key: "Key d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, appGroupId: appGroupId, geoDataSendindInterval: 1)
         Devino.shared.activate(with: config)
         Devino.shared.trackLaunchWithOptions(launchOptions)
         // registration process with Apple Push Notification service:
@@ -50,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
 //        print("PUSH JSON = \(userInfo)")
-//        Devino.shared.trackReceiveRemoteNotification(userInfo)
+//        Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
         completionHandler(.newData)
     }
     
