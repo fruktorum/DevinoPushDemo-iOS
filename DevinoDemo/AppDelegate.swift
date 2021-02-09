@@ -50,8 +50,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-//        print("PUSH JSON = \(userInfo)")
-//        Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
         completionHandler(.newData)
     }
     
