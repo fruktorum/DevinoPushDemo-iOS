@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // set Devino configurations:
-        let config = Devino.Configuration(key: "Key d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, appGroupId: appGroupId, geoDataSendindInterval: 1)
+        let config = Devino.Configuration(key: "d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, appGroupId: appGroupId, geoDataSendindInterval: 1)
         Devino.shared.activate(with: config)
         Devino.shared.trackLaunchWithOptions(launchOptions)
         // registration process with Apple Push Notification service:
