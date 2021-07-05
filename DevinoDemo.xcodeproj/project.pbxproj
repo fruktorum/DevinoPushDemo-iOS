@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C04E31E268F57CF00BD535C /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04E31D268F57CF00BD535C /* DevinoSDK.framework */; };
+		4C04E31F268F57CF00BD535C /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04E31D268F57CF00BD535C /* DevinoSDK.framework */; };
+		4C04E320268F57D700BD535C /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C04E31D268F57CF00BD535C /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92020D79AC700C89B10 /* UserNotifications.framework */; };
+		4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */; };
+		4C26535325CAF69E000CE012 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92020D79AC700C89B10 /* UserNotifications.framework */; };
+		4C26535425CAF6A3000CE012 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */; };
 		4C552FDD2359D46400438A9D /* ViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C552FDC2359D46400438A9D /* ViewController+TextField.swift */; };
 		4C5E546C2358961600F6598D /* Hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E546B2358961600F6598D /* Hero.aiff */; };
 		4C5E54782358C39D00F6598D /* DeepLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */; };
 		4C6EC7152352006E00DE90A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC7142352006E00DE90A0 /* String.swift */; };
 		4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC71623520BD800DE90A0 /* UIViewController.swift */; };
 		4C9A9E59235DCF3E00E7D235 /* push_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A9E58235DCF3E00E7D235 /* push_sound.wav */; };
-		4CC0EFD324114588000BCF97 /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC0EFD224114588000BCF97 /* DevinoSDK.framework */; };
-		4CC0EFD42411458C000BCF97 /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC0EFD224114588000BCF97 /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */; };
 		6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */; };
 		6DB827AF20BF4A72005A3CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AE20BF4A72005A3CBA /* ViewController.swift */; };
@@ -36,17 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		039090AD210AFE6300AE6851 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4CC0EFD42411458C000BCF97 /* DevinoSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		03BFB93120D79AC700C89B10 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,6 +50,17 @@
 				A33081E223587FE600A9CECB /* NotificationService.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C04E318268F540200BD535C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C04E320268F57D700BD535C /* DevinoSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A36BE41523632503003F8681 /* Embed Frameworks */ = {
@@ -73,13 +78,14 @@
 /* Begin PBXFileReference section */
 		03BFB92020D79AC700C89B10 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		4C04E31D268F57CF00BD535C /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
+		4C26534A25CADCF7000CE012 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
 		4C552FDC2359D46400438A9D /* ViewController+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TextField.swift"; sourceTree = "<group>"; };
 		4C5E546B2358961600F6598D /* Hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Hero.aiff; sourceTree = "<group>"; };
 		4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkViewController.swift; sourceTree = "<group>"; };
 		4C6EC7142352006E00DE90A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		4C6EC71623520BD800DE90A0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		4C9A9E58235DCF3E00E7D235 /* push_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push_sound.wav; sourceTree = "<group>"; };
-		4CC0EFD224114588000BCF97 /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
 		4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		6DB827A920BF4A72005A3CBA /* DevinoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC0EFD324114588000BCF97 /* DevinoSDK.framework in Frameworks */,
+				4C26535425CAF6A3000CE012 /* UserNotificationsUI.framework in Frameworks */,
+				4C04E31E268F57CF00BD535C /* DevinoSDK.framework in Frameworks */,
+				4C26535325CAF69E000CE012 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */,
+				4C04E31F268F57CF00BD535C /* DevinoSDK.framework in Frameworks */,
+				4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +127,7 @@
 		03BFB91F20D79AC700C89B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CC0EFD224114588000BCF97 /* DevinoSDK.framework */,
+				4C04E31D268F57CF00BD535C /* DevinoSDK.framework */,
 				03BFB92020D79AC700C89B10 /* UserNotifications.framework */,
 				03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */,
 			);
@@ -182,6 +193,7 @@
 		A33081DC23587FE600A9CECB /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
+				4C26534A25CADCF7000CE012 /* NotificationService.entitlements */,
 				A33081DD23587FE600A9CECB /* NotificationService.swift */,
 				A33081DF23587FE600A9CECB /* Info.plist */,
 			);
@@ -199,7 +211,7 @@
 				6DB827A620BF4A72005A3CBA /* Frameworks */,
 				6DB827A720BF4A72005A3CBA /* Resources */,
 				03BFB93120D79AC700C89B10 /* Embed App Extensions */,
-				039090AD210AFE6300AE6851 /* Embed Frameworks */,
+				4C04E318268F540200BD535C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -473,7 +485,7 @@
 				CODE_SIGN_ENTITLEMENTS = DevinoDemo/DevinoDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
 				ENABLE_BITCODE = NO;
@@ -505,7 +517,7 @@
 				CODE_SIGN_ENTITLEMENTS = DevinoDemo/DevinoDemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
 				ENABLE_BITCODE = NO;
@@ -532,8 +544,10 @@
 		A33081E423587FE600A9CECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
 				ENABLE_BITCODE = NO;
@@ -562,8 +576,10 @@
 		A33081E523587FE600A9CECB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
 				ENABLE_BITCODE = NO;

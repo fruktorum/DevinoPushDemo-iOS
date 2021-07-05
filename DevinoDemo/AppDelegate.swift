@@ -14,11 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let appGroupId = "group.com.fruktorum.DevinoPush"
     let devinoUNUserNotificationCenter = DevinoUNUserNotificationCenter()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // set Devino configurations:
-        let config = Devino.Configuration(key: "Key d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, geoDataSendindInterval: 1)
+        let config = Devino.Configuration(key: "d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, appGroupId: appGroupId, geoDataSendindInterval: 1)
         Devino.shared.activate(with: config)
         Devino.shared.trackLaunchWithOptions(launchOptions)
         // registration process with Apple Push Notification service:
@@ -49,9 +50,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        print("PUSH JSON = \(userInfo)")
-        Devino.shared.trackReceiveRemoteNotification(userInfo)
         completionHandler(.newData)
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Push notifications Error - \(error.localizedDescription)")
     }
     
     private func configureNotificationActions() {
@@ -70,9 +73,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func activateAppByTapOnNotification(_ launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
         if launchOptions?[UIApplicationLaunchOptionsKey.remoteNotification] != nil {
-            print("UIApplicationLaunchOptionsKey.remoteNotification: \(UIApplicationLaunchOptionsKey.remoteNotification.rawValue)")
             if let options = launchOptions, let userInfo = options[UIApplication.LaunchOptionsKey.remoteNotification] as? [AnyHashable: Any] {
-                Devino.shared.trackReceiveRemoteNotification(userInfo)
+//                Devino.shared.trackReceiveRemoteNotification(userInfo)
             }
         }
     }

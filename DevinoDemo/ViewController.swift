@@ -39,9 +39,9 @@ class ViewController: UIViewController {
         configLogs(for: .close)
         Devino.shared.logger = { str in
             DispatchQueue.main.async {
-            print(str)
-            logText += str
-            self.logs.text = logText }}
+                print(str)
+                logText += str
+                self.logs.text = logText }}
     }
     
     override func viewDidLayoutSubviews() {
@@ -86,7 +86,12 @@ class ViewController: UIViewController {
         Devino.shared.sendCurrentSubscriptionStatus(isSubscribe: Devino.isUserNotificationsAvailable)// from settings - Devino.isUserNotificationsAvailable
         
         Devino.shared.getLastSubscriptionStatus { result in
-            print("LastSubscriptionStatus = \(result)")
+            switch result {
+            case .success(let result):
+                print("Success LastSubscriptionStatus = \(result)")
+            case .failure(let error):
+                print("Error LastSubscriptionStatus = \(error.localizedDescription)")
+            }
         }
     }
     
