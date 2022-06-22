@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     var picture: String?
     var sound: String?
     var deepLink: [ActionButton]?
+    var actionLink: String?
 
     override func viewDidLoad() {
         
@@ -96,7 +97,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func touchNotificationBtn(_ sender: Any) {
-        Devino.shared.sendPushNotification(sound: sound, buttons: deepLink, linkToMedia: picture)
+        Devino.shared.sendPushNotification(sound: sound, buttons: deepLink, linkToMedia: picture, action: actionLink)
     }
     
     @IBAction func switchPicture(_ sender: UISwitch) {
@@ -109,6 +110,10 @@ class ViewController: UIViewController {
     
     @IBAction func switchDeepLink(_ sender: UISwitch) {
         deepLink = sender.isOn ? [ActionButton(caption: Content.deepLinkCaption.rawValue, action: Content.deepLinkAction.rawValue)] : nil
+    }
+    
+    @IBAction func switchActionLink(_ sender: UISwitch) {
+        actionLink = sender.isOn ? Content.actionLink.rawValue : nil
     }
     
     @IBAction func touchShowLogsBtn(_ sender: UIButton) {
@@ -150,4 +155,5 @@ enum Content: String {
     case sound = "push_sound.wav"
     case deepLinkCaption = "deep link"
     case deepLinkAction = "devino://first"
+    case actionLink = "devino://second"
 }

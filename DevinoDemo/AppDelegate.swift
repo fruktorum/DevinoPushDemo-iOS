@@ -11,15 +11,15 @@ import DevinoSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
+    
     let appGroupId = "group.com.fruktorum.DevinoPush"
     let devinoUNUserNotificationCenter = DevinoUNUserNotificationCenter()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // set Devino configurations:
-        let config = Devino.Configuration(key: "d223165e-e7aa-4619-a3b0-50c5826494db", applicationId: 13, appGroupId: appGroupId, geoDataSendindInterval: 1)
+        let config = Devino.Configuration(key: "68c3ee3f-82c6-45c4-b81c-d04ceee4cb71", applicationId: 111, appGroupId: appGroupId, geoDataSendindInterval: 1)
         Devino.shared.activate(with: config)
         Devino.shared.trackLaunchWithOptions(launchOptions)
         // registration process with Apple Push Notification service:
@@ -28,14 +28,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UNUserNotificationCenter.current().delegate = devinoUNUserNotificationCenter
         activateAppByTapOnNotification(launchOptions)
         configureNotificationActions()
+        
         return true
     }
-
+    
     func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, for notification: UILocalNotification, completionHandler: @escaping () -> Void) {
-//        Devino.shared.trackLocalNotification(notification, with: identifier)
         completionHandler()
     }
-
+    
     func applicationWillTerminate(_ application: UIApplication) {
         Devino.shared.trackAppTerminated()
     }
@@ -43,13 +43,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Devino.shared.registerForNotification(deviceToken)
     }
-
+    
     func applicationWillEnterForeground(_ application: UIApplication) {
         UIApplication.shared.applicationIconBadgeNumber = 0
         Devino.shared.trackAppLaunch()
     }
     
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        //        Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
         completionHandler(.newData)
     }
     
@@ -57,10 +58,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Push notifications Error - \(error.localizedDescription)")
     }
     
+    // For Deep Link
     private func configureNotificationActions() {
-        devinoUNUserNotificationCenter.setActionForUrl { str in 
+        devinoUNUserNotificationCenter.setActionForUrl { str in
             if str == "devino://first" {
                 self.goToDeepLinkVC()
+            } else if str == "devino://second" {
+                self.goToActionLinkVC()
+            }
+        }
+        
+        // For action link
+        devinoUNUserNotificationCenter.setActionForCustomDefault { str in
+            if str == "devino://second" {
+                self.goToActionLinkVC()
             }
         }
     }
@@ -71,11 +82,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.shared.windows.first?.rootViewController = vc
     }
     
+    private func goToActionLinkVC() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "actionLinkViewController") as! ActionLinkViewController
+        UIApplication.shared.windows.first?.rootViewController = vc
+    }
+    
     private func activateAppByTapOnNotification(_ launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
         if launchOptions?[UIApplicationLaunchOptionsKey.remoteNotification] != nil {
             if let options = launchOptions, let userInfo = options[UIApplication.LaunchOptionsKey.remoteNotification] as? [AnyHashable: Any] {
-//                Devino.shared.trackReceiveRemoteNotification(userInfo)
+                //                Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
             }
         }
     }
 }
+
