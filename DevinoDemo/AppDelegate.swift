@@ -65,6 +65,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 self.goToDeepLinkVC()
             } else if str == "devino://second" {
                 self.goToActionLinkVC()
+            } else if let url = URL(string: str) {
+                UIApplication.shared.open(url)
             }
         }
         
