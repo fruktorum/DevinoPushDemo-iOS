@@ -74,6 +74,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         devinoUNUserNotificationCenter.setActionForCustomDefault { str in
             if str == "devino://second" {
                 self.goToActionLinkVC()
+            } else if let url = URL(string: str) {
+                UIApplication.shared.open(url)
             }
         }
     }
