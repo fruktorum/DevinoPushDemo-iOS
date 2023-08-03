@@ -1,0 +1,105 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DevinoSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+@_exported import DevinoSDK
+import Foundation
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DevinoUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
+  @_Concurrency.MainActor(unsafe) open func setActionForUrl(_ actionForUrl: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func setActionForDismiss(_ actionForDismiss: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func setActionForDefault(_ actionForDefault: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open func setActionForCustomDefault(_ actionForCustomDefault: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class Devino : ObjectiveC.NSObject {
+  public struct Configuration {
+    public let key: Swift.String
+    public let applicationId: Swift.Int
+    public let appGroupId: Swift.String
+    public let geoDataSendindInterval: Swift.Int
+    public let apiRootUrl: Swift.String
+    public let apiRootPort: Swift.Int?
+    public init(key: Swift.String, applicationId: Swift.Int, appGroupId: Swift.String, geoDataSendindInterval: Swift.Int = 0, apiRootUrl: Swift.String = "integrationapi.net", apiRootPort: Swift.Int? = 6602)
+  }
+  final public var debug: Swift.Bool
+  final public var logger: ((Swift.String) -> Swift.Void)?
+  public static var shared: DevinoSDK.Devino
+  public static var isUserNotificationsAvailable: Swift.Bool {
+    get
+  }
+  final public func activate(with config: DevinoSDK.Devino.Configuration)
+  final public func trackAppLaunch()
+  final public func trackLaunchWithOptions(_ options: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  final public func trackReceiveRemoteNotification(_ userInfo: [Swift.AnyHashable : Any], appGroupsId: Swift.String)
+  final public func trackNotificationResponse(_ response: UserNotifications.UNNotificationResponse, _ actionId: Swift.String? = nil)
+  final public func trackAppTerminated()
+  final public func sendCurrentSubscriptionStatus(isSubscribe: Swift.Bool)
+  final public func getLastSubscriptionStatus(_ completionHandler: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  final public func setUserData(phone: Swift.String?, email: Swift.String?)
+  final public func sendPushWithLocation()
+  final public func trackEvent(name: Swift.String, params: [Swift.String : Any] = [:])
+  final public func sendPushNotification(title: Swift.String? = "Devino Telecom", text: Swift.String? = "Text notification", badge: DevinoSDK.Badge? = nil, validity: Swift.Int? = nil, priority: DevinoSDK.Priority = .realtime, silentPush: Swift.Bool? = nil, options: [Swift.String : Any]? = nil, sound: Swift.String? = "default", buttons: [DevinoSDK.ActionButton]? = nil, linkToMedia: Swift.String? = nil, action: Swift.String? = nil)
+  final public func registerForNotification(_ deviceToken: Foundation.Data)
+  final public func getOptions(_ userInfo: [Swift.AnyHashable : Any]) -> [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension DevinoSDK.Devino : CoreLocation.CLLocationManagerDelegate {
+  @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+}
+extension DevinoSDK.Devino : Foundation.URLSessionDelegate {
+}
+public class ActionButton {
+  public init(caption: Swift.String, action: Swift.String)
+  @objc deinit
+}
+public enum Priority : Swift.String {
+  case mediul
+  case low
+  case high
+  case realtime
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Badge : Swift.Int {
+  case zero
+  case one
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class UserDefaultsManager : ObjectiveC.NSObject {
+  public static var userDefaults: Foundation.UserDefaults?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class DevinoNotificationService : UserNotifications.UNNotificationServiceExtension {
+  open var appGroupsId: Swift.String? {
+    get
+  }
+  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic open func serviceExtensionTimeWillExpire()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension DevinoSDK.Priority : Swift.Equatable {}
+extension DevinoSDK.Priority : Swift.Hashable {}
+extension DevinoSDK.Priority : Swift.RawRepresentable {}
+extension DevinoSDK.Badge : Swift.Equatable {}
+extension DevinoSDK.Badge : Swift.Hashable {}
+extension DevinoSDK.Badge : Swift.RawRepresentable {}

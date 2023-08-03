@@ -134,6 +134,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		32EE23CC2A7BABF3006BA5F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DB827AE20BF4A72005A3CBA /* ViewController.swift */,
+				4C552FDC2359D46400438A9D /* ViewController+TextField.swift */,
+				4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */,
+				FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		32EE23CD2A7BABFE006BA5F9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6DB827B520BF4A73005A3CBA /* LaunchScreen.storyboard */,
+				6DB827B020BF4A72005A3CBA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		4C5E546D2358A95A00F6598D /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,13 +196,9 @@
 			isa = PBXGroup;
 			children = (
 				6DF52BBE20C740CB0004F1FD /* DevinoDemo.entitlements */,
-				6DB827B520BF4A73005A3CBA /* LaunchScreen.storyboard */,
-				6DB827B020BF4A72005A3CBA /* Main.storyboard */,
 				6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */,
-				6DB827AE20BF4A72005A3CBA /* ViewController.swift */,
-				4C552FDC2359D46400438A9D /* ViewController+TextField.swift */,
-				4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */,
-				FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */,
+				32EE23CD2A7BABFE006BA5F9 /* Storyboards */,
+				32EE23CC2A7BABF3006BA5F9 /* ViewControllers */,
 				4C5E546D2358A95A00F6598D /* Sounds */,
 				4CF906DB23509D12007B98A9 /* Extensions */,
 				6DB827B320BF4A73005A3CBA /* Assets.xcassets */,
@@ -506,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = DevinoPushDev;
 				SKIP_INSTALL = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -538,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = DevinoPushAppStore;
 				SKIP_INSTALL = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

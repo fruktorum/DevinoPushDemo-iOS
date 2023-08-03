@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let appGroupId = "group.com.fruktorum.DevinoPush"
     let devinoUNUserNotificationCenter = DevinoUNUserNotificationCenter()
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // set Devino configurations:
         let config = Devino.Configuration(key: "68c3ee3f-82c6-45c4-b81c-d04ceee4cb71", applicationId: 111, appGroupId: appGroupId, geoDataSendindInterval: 1)
         Devino.shared.activate(with: config)
@@ -92,8 +92,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.shared.windows.first?.rootViewController = vc
     }
     
-    private func activateAppByTapOnNotification(_ launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
-        if launchOptions?[UIApplicationLaunchOptionsKey.remoteNotification] != nil {
+    private func activateAppByTapOnNotification(_ launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+        if launchOptions?[UIApplication.LaunchOptionsKey.remoteNotification] != nil {
             if let options = launchOptions, let userInfo = options[UIApplication.LaunchOptionsKey.remoteNotification] as? [AnyHashable: Any] {
                 //                Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
             }
