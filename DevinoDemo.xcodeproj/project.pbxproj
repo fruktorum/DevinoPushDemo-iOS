@@ -13,7 +13,6 @@
 		4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */; };
 		4C26535325CAF69E000CE012 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92020D79AC700C89B10 /* UserNotifications.framework */; };
 		4C26535425CAF6A3000CE012 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */; };
-		4C552FDD2359D46400438A9D /* SettingsViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C552FDC2359D46400438A9D /* SettingsViewController+TextField.swift */; };
 		4C5E546C2358961600F6598D /* Hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E546B2358961600F6598D /* Hero.aiff */; };
 		4C5E54782358C39D00F6598D /* DeepLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */; };
 		4C6EC7152352006E00DE90A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC7142352006E00DE90A0 /* String.swift */; };
@@ -83,7 +82,6 @@
 		32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
 		32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		4C26534A25CADCF7000CE012 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
-		4C552FDC2359D46400438A9D /* SettingsViewController+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+TextField.swift"; sourceTree = "<group>"; };
 		4C5E546B2358961600F6598D /* Hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Hero.aiff; sourceTree = "<group>"; };
 		4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkViewController.swift; sourceTree = "<group>"; };
 		4C6EC7142352006E00DE90A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 			children = (
 				32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */,
 				6DB827AE20BF4A72005A3CBA /* SettingsViewController.swift */,
-				4C552FDC2359D46400438A9D /* SettingsViewController+TextField.swift */,
 				4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */,
 				FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */,
 			);
@@ -208,12 +205,12 @@
 		6DB827AB20BF4A72005A3CBA /* DevinoDemo */ = {
 			isa = PBXGroup;
 			children = (
-				32EE23D02A7BB3AF006BA5F9 /* Helpers */,
 				6DF52BBE20C740CB0004F1FD /* DevinoDemo.entitlements */,
 				6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */,
 				32EE23CD2A7BABFE006BA5F9 /* Storyboards */,
 				32EE23CC2A7BABF3006BA5F9 /* ViewControllers */,
 				4C5E546D2358A95A00F6598D /* Sounds */,
+				32EE23D02A7BB3AF006BA5F9 /* Helpers */,
 				4CF906DB23509D12007B98A9 /* Extensions */,
 				6DB827B320BF4A73005A3CBA /* Assets.xcassets */,
 				6DB827B820BF4A73005A3CBA /* Info.plist */,
@@ -353,7 +350,6 @@
 				6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */,
 				32EE23D22A7BB3BE006BA5F9 /* NavigationController.swift in Sources */,
 				4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */,
-				4C552FDD2359D46400438A9D /* SettingsViewController+TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

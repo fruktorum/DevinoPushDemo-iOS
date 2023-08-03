@@ -13,7 +13,7 @@ class UserRegistrationViewController: UIViewController {
     
     // MARK: - UI Outlets
     
-    @IBOutlet private var userPassTextField: UITextField?
+    @IBOutlet private var userEmailTextField: UITextField?
     @IBOutlet private var rootApiUrlTextField: UITextField?
     @IBOutlet private var userPhoneTextField: UITextField?
     
@@ -40,7 +40,7 @@ class UserRegistrationViewController: UIViewController {
         let storyBoard: UIStoryboard = .init(name: "Main", bundle: nil)
         guard let settingsVC = storyBoard.instantiateViewController(withIdentifier: "SettingsViewController") as? SettingsViewController else { return }
         if validUserInfo() {
-            settingsVC.userUpdateData(phone: userPhoneTextField?.text, email: userPassTextField?.text)
+            settingsVC.userUpdateData(phone: userPhoneTextField?.text, email: userEmailTextField?.text)
             clearTextFields()
             UserDefaults.standard.set(true, forKey: "status")
             navigationController?.pushViewController(settingsVC, animated: true)
@@ -74,9 +74,9 @@ class UserRegistrationViewController: UIViewController {
             setRedBorder(for: userPhoneTextField ?? .init(frame: .zero))
         }
         
-        if let password = userPassTextField?.text, !password.isValidPasswordCode {
+        if let password = userEmailTextField?.text, !password.isValidEmail {
             isValid = false
-            setRedBorder(for: userPassTextField ?? .init(frame: .zero))
+            setRedBorder(for: userEmailTextField ?? .init(frame: .zero))
         }
         
         return isValid
@@ -89,7 +89,7 @@ class UserRegistrationViewController: UIViewController {
     
     private func clearTextFields() {
         userPhoneTextField?.text = nil
-        userPassTextField?.text = nil
+        userEmailTextField?.text = nil
     }
 }
 

@@ -26,27 +26,29 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var logsView: UIView!
     @IBOutlet weak var logsViewHightConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var tfEmail: UITextField!
-    @IBOutlet weak var tfPhone: UITextField!
-    
     @IBOutlet weak var pictureSwitch: UISwitch!
     @IBOutlet weak var deepLinkSwitch: UISwitch!
     @IBOutlet weak var soundSwitch: UISwitch!
     
+    @IBOutlet weak var registrationView: UIView!
+    
     // MARK: - Properties
     
-    var hightLogs: CGFloat = 0
-    var picture: String?
-    var sound: String?
-    var deepLink: [ActionButton]?
-    var actionLink: String?
+    private var hightLogs: CGFloat = 0
+    private var picture: String?
+    private var sound: String?
+    private var deepLink: [ActionButton]?
+    private var actionLink: String?
+    
+    private var registeredStatus: Bool {
+        let status = UserDefaults.standard.bool(forKey: "status")
+        return status
+    }
     
     // MARK: - Life cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tfPhone.delegate = self
-        tfEmail.delegate = self
         configLogs(for: .close)
         Devino.shared.logger = { str in
             DispatchQueue.main.async {
@@ -57,6 +59,7 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        registrationView.isHidden = registeredStatus
         hightLogs = scrollView.frame.size.height - 397
         logsViewHightConstraint.constant = hightLogs > 0
             ? hightLogs
@@ -66,12 +69,8 @@ class SettingsViewController: UIViewController {
     
     // MARK: - UI Actions
     
-    @IBAction func doUpdateUserInfo(_ sender: Any) {
-        guard let phone = tfPhone.text, let email = tfEmail.text else { return }
-        if validUserInfo() {
-            Devino.shared.setUserData(phone: "+" + phone.components(separatedBy: CharacterSet.decimalDigits.inverted).joined(), email: email)
-        }
-        view.endEditing(true)
+    @IBAction func touchRegistrationBtn(_ sender: UIButton) {
+        navigationController?.popToRootViewController(animated: true)
     }
     
     @IBAction func touchSendGeoBtn(_ sender: Any) {
@@ -146,19 +145,6 @@ class SettingsViewController: UIViewController {
                 arrowBtn.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
             }
         }
-    }
-    
-    private func validUserInfo() -> Bool {
-        var isValid = true
-        if let phone = tfPhone.text, !phone.isValidPhoneNumber {
-            isValid = false
-            setRedBorder(for: tfPhone)
-        }
-        if let email = tfEmail.text, !email.isValidEmail {
-            isValid = false
-            setRedBorder(for: tfEmail)
-        }
-        return isValid
     }
 }
 

@@ -28,7 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UNUserNotificationCenter.current().delegate = devinoUNUserNotificationCenter
         activateAppByTapOnNotification(launchOptions)
         configureNotificationActions()
-        
+        //reset status before entering
+        UserDefaults.standard.set(false, forKey: "status")
         return true
     }
     
