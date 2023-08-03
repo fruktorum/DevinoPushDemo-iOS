@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32EE23CF2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */; };
+		32EE23D22A7BB3BE006BA5F9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */; };
 		4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92020D79AC700C89B10 /* UserNotifications.framework */; };
 		4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */; };
 		4C26535325CAF69E000CE012 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92020D79AC700C89B10 /* UserNotifications.framework */; };
 		4C26535425CAF6A3000CE012 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */; };
-		4C552FDD2359D46400438A9D /* ViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C552FDC2359D46400438A9D /* ViewController+TextField.swift */; };
+		4C552FDD2359D46400438A9D /* SettingsViewController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C552FDC2359D46400438A9D /* SettingsViewController+TextField.swift */; };
 		4C5E546C2358961600F6598D /* Hero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E546B2358961600F6598D /* Hero.aiff */; };
 		4C5E54782358C39D00F6598D /* DeepLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */; };
 		4C6EC7152352006E00DE90A0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC7142352006E00DE90A0 /* String.swift */; };
@@ -19,7 +21,7 @@
 		4C9A9E59235DCF3E00E7D235 /* push_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A9E58235DCF3E00E7D235 /* push_sound.wav */; };
 		4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */; };
 		6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */; };
-		6DB827AF20BF4A72005A3CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AE20BF4A72005A3CBA /* ViewController.swift */; };
+		6DB827AF20BF4A72005A3CBA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AE20BF4A72005A3CBA /* SettingsViewController.swift */; };
 		6DB827B220BF4A72005A3CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B020BF4A72005A3CBA /* Main.storyboard */; };
 		6DB827B420BF4A73005A3CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B320BF4A73005A3CBA /* Assets.xcassets */; };
 		6DB827B720BF4A73005A3CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B520BF4A73005A3CBA /* LaunchScreen.storyboard */; };
@@ -78,8 +80,10 @@
 /* Begin PBXFileReference section */
 		03BFB92020D79AC700C89B10 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
+		32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		4C26534A25CADCF7000CE012 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
-		4C552FDC2359D46400438A9D /* ViewController+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TextField.swift"; sourceTree = "<group>"; };
+		4C552FDC2359D46400438A9D /* SettingsViewController+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+TextField.swift"; sourceTree = "<group>"; };
 		4C5E546B2358961600F6598D /* Hero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Hero.aiff; sourceTree = "<group>"; };
 		4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkViewController.swift; sourceTree = "<group>"; };
 		4C6EC7142352006E00DE90A0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -88,7 +92,7 @@
 		4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		6DB827A920BF4A72005A3CBA /* DevinoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DB827AE20BF4A72005A3CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DB827AE20BF4A72005A3CBA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6DB827B120BF4A72005A3CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DB827B320BF4A73005A3CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB827B620BF4A73005A3CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -137,8 +141,9 @@
 		32EE23CC2A7BABF3006BA5F9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				6DB827AE20BF4A72005A3CBA /* ViewController.swift */,
-				4C552FDC2359D46400438A9D /* ViewController+TextField.swift */,
+				32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */,
+				6DB827AE20BF4A72005A3CBA /* SettingsViewController.swift */,
+				4C552FDC2359D46400438A9D /* SettingsViewController+TextField.swift */,
 				4C5E54772358C39D00F6598D /* DeepLinkViewController.swift */,
 				FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */,
 			);
@@ -152,6 +157,14 @@
 				6DB827B020BF4A72005A3CBA /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32EE23D02A7BB3AF006BA5F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		4C5E546D2358A95A00F6598D /* Sounds */ = {
@@ -195,6 +208,7 @@
 		6DB827AB20BF4A72005A3CBA /* DevinoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32EE23D02A7BB3AF006BA5F9 /* Helpers */,
 				6DF52BBE20C740CB0004F1FD /* DevinoDemo.entitlements */,
 				6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */,
 				32EE23CD2A7BABFE006BA5F9 /* Storyboards */,
@@ -333,11 +347,13 @@
 				4C5E54782358C39D00F6598D /* DeepLinkViewController.swift in Sources */,
 				4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */,
 				4C6EC7152352006E00DE90A0 /* String.swift in Sources */,
-				6DB827AF20BF4A72005A3CBA /* ViewController.swift in Sources */,
+				6DB827AF20BF4A72005A3CBA /* SettingsViewController.swift in Sources */,
+				32EE23CF2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift in Sources */,
 				FA082C6F285E04E900BBA5AD /* ActionLinkViewController.swift in Sources */,
 				6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */,
+				32EE23D22A7BB3BE006BA5F9 /* NavigationController.swift in Sources */,
 				4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */,
-				4C552FDD2359D46400438A9D /* ViewController+TextField.swift in Sources */,
+				4C552FDD2359D46400438A9D /* SettingsViewController+TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

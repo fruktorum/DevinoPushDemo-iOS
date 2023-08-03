@@ -1,5 +1,5 @@
 //
-//  ViewController+TextField.swift
+//  SettingsViewController+TextField.swift
 //  DevinoDemo
 //
 //  Created by Maria on 18.10.2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension ViewController: UITextFieldDelegate {
+extension SettingsViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         switch textField.tag {

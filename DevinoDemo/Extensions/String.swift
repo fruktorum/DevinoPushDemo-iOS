@@ -20,6 +20,11 @@ extension String {
         return true
     }
     
+    var isValidPasswordCode: Bool {
+        guard self.count > 5 && self.count < 21 && !self.isEmpty else { return false }
+        return true
+    }
+    
     func applyPatternOnNumbers(pattern: String, replacmentCharacter: Character) -> String {
         var pureNumber = replacingOccurrences( of: "[^0-9]", with: "", options: .regularExpression)
         for index in 0 ..< pattern.count {

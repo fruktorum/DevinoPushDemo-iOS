@@ -13,27 +13,37 @@ import DevinoSDK
 
 var logText = ""
 
-class ViewController: UIViewController {
+class SettingsViewController: UIViewController {
+    
+    // MARK: - UI Outlets
 
     @IBOutlet weak var arrowBtn: UIButton!
+    
     @IBOutlet weak var scrollView: UIScrollView!
+    
     @IBOutlet weak var logs: UITextView!
+    
     @IBOutlet weak var logsView: UIView!
     @IBOutlet weak var logsViewHightConstraint: NSLayoutConstraint!
+    
     @IBOutlet weak var tfEmail: UITextField!
     @IBOutlet weak var tfPhone: UITextField!
+    
     @IBOutlet weak var pictureSwitch: UISwitch!
     @IBOutlet weak var deepLinkSwitch: UISwitch!
     @IBOutlet weak var soundSwitch: UISwitch!
+    
+    // MARK: - Properties
     
     var hightLogs: CGFloat = 0
     var picture: String?
     var sound: String?
     var deepLink: [ActionButton]?
     var actionLink: String?
+    
+    // MARK: - Life cycle
 
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         tfPhone.delegate = self
         tfEmail.delegate = self
@@ -54,6 +64,8 @@ class ViewController: UIViewController {
         // 397 - hight of all elements without logs
     }
     
+    // MARK: - UI Actions
+    
     @IBAction func doUpdateUserInfo(_ sender: Any) {
         guard let phone = tfPhone.text, let email = tfEmail.text else { return }
         if validUserInfo() {
@@ -62,24 +74,6 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
-    private func validUserInfo() -> Bool {
-        var isValid = true
-        if let phone = tfPhone.text, !phone.isValidPhoneNumber {
-            isValid = false
-            setRedBorder(for: tfPhone)
-        }
-        if let email = tfEmail.text, !email.isValidEmail {
-            isValid = false
-            setRedBorder(for: tfEmail)
-        }
-        return isValid
-    }
-    
-    func setRedBorder(for textField: UITextField) {
-        textField.layer.borderColor = UIColor.red.cgColor
-        textField.layer.borderWidth = 1
-    }
- 
     @IBAction func touchSendGeoBtn(_ sender: Any) {
         Devino.shared.sendPushWithLocation()
 //        Devino.shared.trackLocation()
@@ -126,7 +120,20 @@ class ViewController: UIViewController {
         logs.text.removeAll()
     }
     
-    func configLogs(for state: LogState) {
+    //MARK: Functions
+    
+    func userUpdateData(phone: String?, email: String?) {
+        Devino.shared.setUserData(phone: phone, email: email)
+    }
+    
+    //MARK: Private
+    
+    private func setRedBorder(for textField: UITextField) {
+        textField.layer.borderColor = UIColor.red.cgColor
+        textField.layer.borderWidth = 1
+    }
+    
+    private func configLogs(for state: LogState) {
         if #available(iOS 11.0, *) {
             arrowBtn.clipsToBounds = true
             arrowBtn.layer.cornerRadius = 5
@@ -140,10 +147,20 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    private func validUserInfo() -> Bool {
+        var isValid = true
+        if let phone = tfPhone.text, !phone.isValidPhoneNumber {
+            isValid = false
+            setRedBorder(for: tfPhone)
+        }
+        if let email = tfEmail.text, !email.isValidEmail {
+            isValid = false
+            setRedBorder(for: tfEmail)
+        }
+        return isValid
+    }
 }
-
-
-class NavVC: UINavigationController {}
 
 enum LogState {
     case open

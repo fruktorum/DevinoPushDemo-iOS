@@ -16,7 +16,7 @@ class ActionLinkViewController: UIViewController {
     
     @IBAction private func pressedBackButton(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let navVC = storyboard.instantiateViewController(withIdentifier: "navVC") as! NavVC
-        UIApplication.shared.windows.first?.rootViewController = navVC
+        let NavigationController = storyboard.instantiateViewController(withIdentifier: "NavigationController") as! NavigationController
+        UIApplication.shared.windows.first?.rootViewController = NavigationController
     }
 }
