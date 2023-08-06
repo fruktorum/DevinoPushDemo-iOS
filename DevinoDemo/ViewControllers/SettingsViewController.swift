@@ -59,8 +59,12 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        registrationView.isHidden = registeredStatus
-        hightLogs = scrollView.frame.size.height - 397
+        if !registeredStatus {
+            hightLogs = scrollView.frame.size.height - 500
+        } else {
+            registrationView.isHidden = registeredStatus
+            hightLogs = scrollView.frame.size.height - 424
+        }
         logsViewHightConstraint.constant = hightLogs > 0
             ? hightLogs
             : (logsView.isHidden ? 60 : 260)
@@ -107,6 +111,14 @@ class SettingsViewController: UIViewController {
     
     @IBAction func switchActionLink(_ sender: UISwitch) {
         actionLink = sender.isOn ? Content.actionLink.rawValue : nil
+    }
+    
+    @IBAction func touchCopyLogBtn(_ sender: UIButton) {
+        UIPasteboard.general.string = logText
+    }
+    
+    @IBAction func copyTokenBtn(_ sender: UIButton) {
+        UIPasteboard.general.string = Devino.shared.getTokenCopy()
     }
     
     @IBAction func touchShowLogsBtn(_ sender: UIButton) {

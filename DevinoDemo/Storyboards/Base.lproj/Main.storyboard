@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="50" width="375" height="728"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jxa-7r-swE">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="770"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="856"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-nO-YhR" userLabel="Top View">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
@@ -263,7 +263,7 @@
                                                             <constraint firstAttribute="height" constant="56" id="lV1-Om-tS5"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                        <state key="normal" title="Notification">
+                                                        <state key="normal" title="Send Notification">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
@@ -292,8 +292,61 @@
                                                     <constraint firstAttribute="height" constant="1" id="Sbg-i1-XIp"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pgf-Ow-9gE" userLabel="Copy View">
+                                                <rect key="frame" x="0.0" y="410" width="375" height="86"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNJ-Gx-YT5">
+                                                        <rect key="frame" x="40.000000000000007" y="15" width="127.66666666666669" height="56"/>
+                                                        <color key="backgroundColor" red="0.87843137979999997" green="0.87843137979999997" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="56" id="7bz-Qv-g6w"/>
+                                                        </constraints>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Copy Log"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="5"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="touchCopyLogBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wcM-CD-pyf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXl-kd-Wrg">
+                                                        <rect key="frame" x="207.66666666666666" y="15" width="127.33333333333334" height="56"/>
+                                                        <color key="backgroundColor" red="0.87843137979999997" green="0.87843137979999997" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="56" id="L6D-ZJ-eVh"/>
+                                                        </constraints>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Copy Token"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="5"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="copyTokenBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a98-qy-IOZ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="LXl-kd-Wrg" firstAttribute="top" secondItem="Pgf-Ow-9gE" secondAttribute="top" constant="15" id="0ia-Rf-DF2"/>
+                                                    <constraint firstItem="RNJ-Gx-YT5" firstAttribute="width" secondItem="LXl-kd-Wrg" secondAttribute="width" id="7dO-H5-nAl"/>
+                                                    <constraint firstItem="LXl-kd-Wrg" firstAttribute="leading" secondItem="RNJ-Gx-YT5" secondAttribute="trailing" constant="40" id="DyN-LR-eYl"/>
+                                                    <constraint firstItem="RNJ-Gx-YT5" firstAttribute="leading" secondItem="Pgf-Ow-9gE" secondAttribute="leading" constant="40" id="Tug-8r-4rZ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="LXl-kd-Wrg" secondAttribute="bottom" constant="15" id="ipS-Ex-MVb"/>
+                                                    <constraint firstItem="RNJ-Gx-YT5" firstAttribute="top" secondItem="Pgf-Ow-9gE" secondAttribute="top" constant="15" id="quz-D9-5Q3"/>
+                                                    <constraint firstAttribute="trailing" secondItem="LXl-kd-Wrg" secondAttribute="trailing" constant="40" id="t5V-oE-Axo"/>
+                                                    <constraint firstAttribute="height" constant="86" id="xsP-kO-Qg0"/>
+                                                    <constraint firstAttribute="bottom" secondItem="RNJ-Gx-YT5" secondAttribute="bottom" constant="15" id="xya-8T-Tyb"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baX-92-pnJ" userLabel="Logs View">
-                                                <rect key="frame" x="0.0" y="410" width="375" height="360"/>
+                                                <rect key="frame" x="0.0" y="496" width="375" height="360"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7w-BM-mvD">
                                                         <rect key="frame" x="15" y="315" width="345" height="30"/>
@@ -413,7 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="919" y="114"/>
+            <point key="canvasLocation" x="917.60000000000002" y="113.79310344827587"/>
         </scene>
         <!--Deep Link View Controller-->
         <scene sceneID="AXn-de-Sf8">
