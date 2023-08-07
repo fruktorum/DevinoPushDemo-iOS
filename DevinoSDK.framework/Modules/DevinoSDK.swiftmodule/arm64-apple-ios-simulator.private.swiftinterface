@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DevinoSDK
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DevinoSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
 @_exported import DevinoSDK
 import Foundation
@@ -8,6 +9,7 @@ import Swift
 import UIKit
 import UserNotifications
 import _Concurrency
+import _StringProcessing
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DevinoUNUserNotificationCenter : UIKit.UIResponder, UIKit.UIApplicationDelegate, UserNotifications.UNUserNotificationCenterDelegate {
   @_Concurrency.MainActor(unsafe) open func setActionForUrl(_ actionForUrl: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) open func setActionForDismiss(_ actionForDismiss: @escaping () -> Swift.Void)
@@ -15,7 +17,7 @@ import _Concurrency
   @_Concurrency.MainActor(unsafe) open func setActionForCustomDefault(_ actionForCustomDefault: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
-  @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class Devino : ObjectiveC.NSObject {
@@ -41,7 +43,7 @@ import _Concurrency
   final public func trackNotificationResponse(_ response: UserNotifications.UNNotificationResponse, _ actionId: Swift.String? = nil)
   final public func trackAppTerminated()
   final public func sendCurrentSubscriptionStatus(isSubscribe: Swift.Bool)
-  final public func getLastSubscriptionStatus(_ completionHandler: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  final public func getLastSubscriptionStatus(_ completionHandler: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   final public func setUserData(phone: Swift.String?, email: Swift.String?)
   final public func sendPushWithLocation()
   final public func trackEvent(name: Swift.String, params: [Swift.String : Any] = [:])
@@ -53,7 +55,7 @@ import _Concurrency
 }
 extension DevinoSDK.Devino : CoreLocation.CLLocationManagerDelegate {
   @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)
+  @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
 }
 extension DevinoSDK.Devino : Foundation.URLSessionDelegate {
 }

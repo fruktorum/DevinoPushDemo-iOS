@@ -6,6 +6,6 @@ framework module DevinoSDK {
 }
 
 module DevinoSDK.Swift {
-    header "DevinoSDK-Swift.h"
-    requires objc
+  header "DevinoSDK-Swift.h"
+  requires objc
 }
