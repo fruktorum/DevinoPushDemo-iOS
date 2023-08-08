@@ -19,6 +19,8 @@
 		4C6EC71723520BD800DE90A0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EC71623520BD800DE90A0 /* UIViewController.swift */; };
 		4C9A9E59235DCF3E00E7D235 /* push_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A9E58235DCF3E00E7D235 /* push_sound.wav */; };
 		4CF906DD23509D27007B98A9 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */; };
+		683A9AFFEB6FE877F4B118F1 /* Pods_DevinoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F61387D5EB66220DB74DB9 /* Pods_DevinoDemo.framework */; };
+		6ADA2C963A9A1ACADD8B1A28 /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBFC7C97E0220A9D50799F3 /* Pods_NotificationService.framework */; };
 		6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */; };
 		6DB827AF20BF4A72005A3CBA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB827AE20BF4A72005A3CBA /* SettingsViewController.swift */; };
 		6DB827B220BF4A72005A3CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB827B020BF4A72005A3CBA /* Main.storyboard */; };
@@ -88,6 +90,7 @@
 		4C6EC71623520BD800DE90A0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		4C9A9E58235DCF3E00E7D235 /* push_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push_sound.wav; sourceTree = "<group>"; };
 		4CF906DC23509D27007B98A9 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		65F61387D5EB66220DB74DB9 /* Pods_DevinoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevinoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB827A920BF4A72005A3CBA /* DevinoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB827AC20BF4A72005A3CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB827AE20BF4A72005A3CBA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -96,9 +99,14 @@
 		6DB827B620BF4A73005A3CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB827B820BF4A73005A3CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF52BBE20C740CB0004F1FD /* DevinoDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevinoDemo.entitlements; sourceTree = "<group>"; };
+		7FF919E5264027C2CC326AC6 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		8A084B55360B890D29ECD2D6 /* Pods-DevinoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevinoDemo.debug.xcconfig"; path = "Target Support Files/Pods-DevinoDemo/Pods-DevinoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9CEBDB8A9C90072D4190529E /* Pods-DevinoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevinoDemo.release.xcconfig"; path = "Target Support Files/Pods-DevinoDemo/Pods-DevinoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A33081DB23587FE600A9CECB /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33081DD23587FE600A9CECB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		A33081DF23587FE600A9CECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBF7DB392586689B263E3D3 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		EDBFC7C97E0220A9D50799F3 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionLinkViewController.swift; sourceTree = "<group>"; };
 		FA082C70286192B700BBA5AD /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +119,7 @@
 				4C26535425CAF6A3000CE012 /* UserNotificationsUI.framework in Frameworks */,
 				FA082C71286192B700BBA5AD /* DevinoSDK.framework in Frameworks */,
 				4C26535325CAF69E000CE012 /* UserNotifications.framework in Frameworks */,
+				683A9AFFEB6FE877F4B118F1 /* Pods_DevinoDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +129,7 @@
 			files = (
 				4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */,
 				4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */,
+				6ADA2C963A9A1ACADD8B1A28 /* Pods_NotificationService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +142,8 @@
 				FA082C70286192B700BBA5AD /* DevinoSDK.framework */,
 				03BFB92020D79AC700C89B10 /* UserNotifications.framework */,
 				03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */,
+				65F61387D5EB66220DB74DB9 /* Pods_DevinoDemo.framework */,
+				EDBFC7C97E0220A9D50799F3 /* Pods_NotificationService.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,6 +202,7 @@
 				A33081DC23587FE600A9CECB /* NotificationService */,
 				03BFB91F20D79AC700C89B10 /* Frameworks */,
 				6DB827AA20BF4A72005A3CBA /* Products */,
+				A422A395FFBAD4D0BC04C5E0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,6 +241,18 @@
 			path = NotificationService;
 			sourceTree = "<group>";
 		};
+		A422A395FFBAD4D0BC04C5E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A084B55360B890D29ECD2D6 /* Pods-DevinoDemo.debug.xcconfig */,
+				9CEBDB8A9C90072D4190529E /* Pods-DevinoDemo.release.xcconfig */,
+				BBBF7DB392586689B263E3D3 /* Pods-NotificationService.debug.xcconfig */,
+				7FF919E5264027C2CC326AC6 /* Pods-NotificationService.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,11 +260,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DB827BB20BF4A73005A3CBA /* Build configuration list for PBXNativeTarget "DevinoDemo" */;
 			buildPhases = (
+				2AE28396505ACA7BC6D9FAEA /* [CP] Check Pods Manifest.lock */,
 				6DB827A520BF4A72005A3CBA /* Sources */,
 				6DB827A620BF4A72005A3CBA /* Frameworks */,
 				6DB827A720BF4A72005A3CBA /* Resources */,
 				03BFB93120D79AC700C89B10 /* Embed App Extensions */,
 				4C04E318268F540200BD535C /* Embed Frameworks */,
+				F6039B09100D0D2C3F8CE5FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A33081E323587FE600A9CECB /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
+				5B26868E5C34D35A1E0B9BB4 /* [CP] Check Pods Manifest.lock */,
 				A33081D723587FE600A9CECB /* Sources */,
 				A33081D823587FE600A9CECB /* Frameworks */,
 				A33081D923587FE600A9CECB /* Resources */,
@@ -335,6 +363,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE28396505ACA7BC6D9FAEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DevinoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B26868E5C34D35A1E0B9BB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6039B09100D0D2C3F8CE5FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevinoDemo/Pods-DevinoDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DevinoDemo/Pods-DevinoDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevinoDemo/Pods-DevinoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6DB827A520BF4A72005A3CBA /* Sources */ = {
@@ -509,6 +601,7 @@
 		};
 		6DB827BC20BF4A73005A3CBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A084B55360B890D29ECD2D6 /* Pods-DevinoDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -541,6 +634,7 @@
 		};
 		6DB827BD20BF4A73005A3CBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEBDB8A9C90072D4190529E /* Pods-DevinoDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -573,6 +667,7 @@
 		};
 		A33081E423587FE600A9CECB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBF7DB392586689B263E3D3 /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -606,6 +701,7 @@
 		};
 		A33081E523587FE600A9CECB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF919E5264027C2CC326AC6 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
