@@ -15,4 +15,10 @@ extension UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (_) in }))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    func showMessage(_ description: String) {
+        let alert = UIAlertController(title: description, message: nil, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (_) in }))
+        self.present(alert, animated: true, completion: nil)
+    }
 }
