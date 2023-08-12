@@ -114,11 +114,25 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func touchCopyLogBtn(_ sender: UIButton) {
-        UIPasteboard.general.string = logText
+        UIView.animate(withDuration: 0.1) {
+            sender.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+        } completion: { _ in
+            UIView.animate(withDuration: 0.1) {
+                sender.transform = .identity
+                UIPasteboard.general.string = logText
+            }
+        }
     }
     
     @IBAction func copyTokenBtn(_ sender: UIButton) {
-        UIPasteboard.general.string = Devino.shared.getTokenCopy()
+        UIView.animate(withDuration: 0.1) {
+            sender.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+        } completion: { _ in
+            UIView.animate(withDuration: 0.1) {
+                sender.transform = .identity
+                UIPasteboard.general.string = Devino.shared.getTokenCopy()
+            }
+        }
     }
     
     @IBAction func touchShowLogsBtn(_ sender: UIButton) {

@@ -313,7 +313,7 @@
                                                             <action selector="touchCopyLogBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wcM-CD-pyf"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXl-kd-Wrg">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXl-kd-Wrg">
                                                         <rect key="frame" x="207.66666666666666" y="15" width="127.33333333333334" height="56"/>
                                                         <color key="backgroundColor" red="0.87843137979999997" green="0.87843137979999997" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
