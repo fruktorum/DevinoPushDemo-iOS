@@ -8,7 +8,7 @@
 
 import UIKit
 import DevinoSDK
-//import IQKeyboardManagerSwift
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //reset status before entering
         UserDefaults.standard.set(false, forKey: "status")
         //setup IQKeyboardManager
-//        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.enable = true
         return true
     }
     
