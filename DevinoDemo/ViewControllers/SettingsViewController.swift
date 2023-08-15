@@ -56,12 +56,12 @@ class SettingsViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         if !registeredStatus {
-            hightLogs = scrollView.frame.size.height - 500
+            hightLogs = (scrollView?.frame.size.height ?? 0) - 500
         } else {
-            registrationView.isHidden = registeredStatus
-            hightLogs = scrollView.frame.size.height - 424
+            registrationView?.isHidden = registeredStatus
+            hightLogs = (scrollView?.frame.size.height ?? 0) - 424
         }
-        logsViewHightConstraint.constant = hightLogs > 0
+        logsViewHightConstraint?.constant = hightLogs > 0
             ? hightLogs
         : ((logsView?.isHidden ?? false) ? 60 : 260)
         // 500 or 424 - hight of all elements without logs depends on registration button displaying
@@ -75,9 +75,8 @@ class SettingsViewController: UIViewController {
     
     @IBAction func touchSendGeoBtn(_ sender: Any) {
         Devino.shared.sendPushWithLocation()
-//        Devino.shared.trackLocation()
         
-        Devino.shared.sendCurrentSubscriptionStatus(isSubscribe: Devino.isUserNotificationsAvailable)// from settings - Devino.isUserNotificationsAvailable
+        Devino.shared.sendCurrentSubscriptionStatus(isSubscribe: Devino.isUserNotificationsAvailable)
         
         Devino.shared.getLastSubscriptionStatus { result in
             switch result {

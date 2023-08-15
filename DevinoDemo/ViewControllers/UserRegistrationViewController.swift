@@ -23,7 +23,7 @@ class UserRegistrationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        rootApiUrlTextField?.text = Constants.apiUrl
+        rootApiUrlTextField?.text = Constants.apiUrl
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         userPhoneTextField?.delegate = self

@@ -36,24 +36,4 @@ extension String {
         }
         return pureNumber
     }
-    
-//    func formattedNumber() -> String {
-//        let cleanPhoneNumber = components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
-//        let mask = "+# ### ###-####"
-//        var result = ""
-//        var index = cleanPhoneNumber.startIndex
-//        for ch in mask {
-//            if index == cleanPhoneNumber.endIndex { break }
-//            if ch == "#" {
-//                result.append(cleanPhoneNumber[index])
-//                index = cleanPhoneNumber.index(after: index)
-//            } else {
-//                result.append(ch)
-//            }
-//        }
-//        return result
-//    }
-    
-    
-    
 }

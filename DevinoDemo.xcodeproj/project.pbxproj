@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		329AD6042A87EF43008AA532 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 329AD6032A87EF43008AA532 /* IQKeyboardManagerSwift */; };
+		329AD6082A8BC48C008AA532 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AD6072A8BC48C008AA532 /* Constants.swift */; };
 		32EE23CF2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */; };
 		32EE23D22A7BB3BE006BA5F9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */; };
 		4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFB92020D79AC700C89B10 /* UserNotifications.framework */; };
@@ -80,6 +81,7 @@
 /* Begin PBXFileReference section */
 		03BFB92020D79AC700C89B10 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		329AD6072A8BC48C008AA532 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
 		32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		4C26534A25CADCF7000CE012 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				32EE23D12A7BB3BE006BA5F9 /* NavigationController.swift */,
+				329AD6072A8BC48C008AA532 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				4C6EC7152352006E00DE90A0 /* String.swift in Sources */,
 				6DB827AF20BF4A72005A3CBA /* SettingsViewController.swift in Sources */,
 				32EE23CF2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift in Sources */,
+				329AD6082A8BC48C008AA532 /* Constants.swift in Sources */,
 				FA082C6F285E04E900BBA5AD /* ActionLinkViewController.swift in Sources */,
 				6DB827AD20BF4A72005A3CBA /* AppDelegate.swift in Sources */,
 				32EE23D22A7BB3BE006BA5F9 /* NavigationController.swift in Sources */,
