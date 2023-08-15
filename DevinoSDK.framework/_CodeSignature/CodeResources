@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+WVaoHgZdb0hS75WecDeQkD7RCs=
+		Twwif88WQ74Ph/ZwMDVteXuU8co=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xDXaMzF+8cBe2voQkKCUH0yi464=
+		hVOWA2LWM5xS5U3mNnm9+to9hmY=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xDXaMzF+8cBe2voQkKCUH0yi464=
+		hVOWA2LWM5xS5U3mNnm9+to9hmY=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+yGSRvs17YbPvcdkN6pk4Kp1pG4=
+		7qRJ2MuWWzjeFtCNiqLgb4MBIIw=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+WVaoHgZdb0hS75WecDeQkD7RCs=
+		Twwif88WQ74Ph/ZwMDVteXuU8co=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		V9ySqNdRtm6USDDc2kzuKm4NGoU=
+		77lux+Z+c/G61MG3R9V2Tp1dcrU=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		V9ySqNdRtm6USDDc2kzuKm4NGoU=
+		77lux+Z+c/G61MG3R9V2Tp1dcrU=
 		</data>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s25UgI8+vz0qVehUbs3H3vFEQYg=
+		hDHijtco5FY11y3xz7MVYHO9nig=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cYDHvnRvoUY/hTM6Vco7vbMUqZHQOH4pZDjg4SMr8cs=
+			TUaTgQ8RD6A1ZxPpNqt2r+WRJYwRk1282iVgBNTDYAM=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3baNziNH7xP/rtahAwWjYv491fW+VdmN2/Um6/q1pe8=
+			IWfsVdFH6ZwP0w04Yr0+aU0t88LGo9DduLXBa06E7Ew=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3baNziNH7xP/rtahAwWjYv491fW+VdmN2/Um6/q1pe8=
+			IWfsVdFH6ZwP0w04Yr0+aU0t88LGo9DduLXBa06E7Ew=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			umJ+Hah3Eq8KJtj/JzG4V455pHp34t6yVxhQFdNBmAs=
+			my+5D9WVIcqCsP3bF4SStez/IV3aHRo/Ok8A1M/qvkM=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cYDHvnRvoUY/hTM6Vco7vbMUqZHQOH4pZDjg4SMr8cs=
+			TUaTgQ8RD6A1ZxPpNqt2r+WRJYwRk1282iVgBNTDYAM=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwBZ2i4BDt+blo2ugVU34EWS1Sd5hBIemDdcGhcuf4g=
+			aE8H2SezYWtU0d2trwhNwmDua7+t0d7jiU2p2VA03FA=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwBZ2i4BDt+blo2ugVU34EWS1Sd5hBIemDdcGhcuf4g=
+			aE8H2SezYWtU0d2trwhNwmDua7+t0d7jiU2p2VA03FA=
 			</data>
 		</dict>
 		<key>Modules/DevinoSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NpJ5HMIVcbRrghfJZedAKeBagOPtVWDzkhY1JCpHY2I=
+			r3G+Vb0MILtA7+Jt80dJrssNRNnzqwYyFakOaf2v5N0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -53,8 +53,8 @@ class UserRegistrationViewController: UIViewController {
             self.showError(message: "Root API Url не должен быть пустым!")
             return
         }
-//        Devino.shared.setupApiRootUrl(with: apiUrl)
-//        showMessage("Root API URL is changed")
+        Devino.shared.setupApiRootUrl(with: apiUrl)
+        showMessage("Root API URL is changed")
         rootApiUrlTextField?.text = nil
     }
     

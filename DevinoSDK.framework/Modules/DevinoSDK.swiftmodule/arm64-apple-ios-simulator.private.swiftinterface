@@ -50,6 +50,7 @@ import _StringProcessing
   final public func sendPushNotification(title: Swift.String? = "Devino Telecom", text: Swift.String? = "Text notification", badge: DevinoSDK.Badge? = nil, validity: Swift.Int? = nil, priority: DevinoSDK.Priority = .realtime, silentPush: Swift.Bool? = nil, options: [Swift.String : Any]? = nil, sound: Swift.String? = "default", buttons: [DevinoSDK.ActionButton]? = nil, linkToMedia: Swift.String? = nil, action: Swift.String? = nil)
   final public func registerForNotification(_ deviceToken: Foundation.Data)
   final public func getOptions(_ userInfo: [Swift.AnyHashable : Any]) -> [Swift.String : Any]?
+  final public func setupApiRootUrl(with apiRootUrl: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
