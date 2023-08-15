@@ -54,12 +54,17 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        registrationView?.isHidden = registeredStatus
-        hightLogs = (scrollView?.frame.size.height ?? 0) - 397
-        logsViewHightConstraint?.constant = hightLogs > 0
+        
+        if !registeredStatus {
+            hightLogs = scrollView.frame.size.height - 500
+        } else {
+            registrationView.isHidden = registeredStatus
+            hightLogs = scrollView.frame.size.height - 424
+        }
+        logsViewHightConstraint.constant = hightLogs > 0
             ? hightLogs
         : ((logsView?.isHidden ?? false) ? 60 : 260)
-        // 397 - hight of all elements without logs
+        // 500 or 424 - hight of all elements without logs depends on registration button displaying
     }
     
     // MARK: - UI Actions
@@ -102,6 +107,28 @@ class SettingsViewController: UIViewController {
     
     @IBAction func switchActionLink(_ sender: UISwitch) {
         actionLink = sender.isOn ? Content.actionLink.rawValue : nil
+    }
+    
+    @IBAction func touchCopyLogBtn(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.1) {
+            sender.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+        } completion: { _ in
+            UIView.animate(withDuration: 0.1) {
+                sender.transform = .identity
+                UIPasteboard.general.string = logText
+            }
+        }
+    }
+    
+    @IBAction func copyTokenBtn(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.1) {
+            sender.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+        } completion: { _ in
+            UIView.animate(withDuration: 0.1) {
+                sender.transform = .identity
+                UIPasteboard.general.string = Devino.shared.getTokenCopy()
+            }
+        }
     }
     
     @IBAction func touchShowLogsBtn(_ sender: UIButton) {
