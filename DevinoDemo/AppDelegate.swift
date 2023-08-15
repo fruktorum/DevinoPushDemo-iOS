@@ -8,6 +8,7 @@
 
 import UIKit
 import DevinoSDK
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,7 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UNUserNotificationCenter.current().delegate = devinoUNUserNotificationCenter
         activateAppByTapOnNotification(launchOptions)
         configureNotificationActions()
-        
+        //reset status before entering
+        UserDefaults.standard.set(false, forKey: "status")
+        //setup IQKeyboardManager
+        IQKeyboardManager.shared.enable = true
         return true
     }
     

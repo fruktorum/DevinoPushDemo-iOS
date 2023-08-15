@@ -13,73 +13,61 @@ import DevinoSDK
 
 var logText = ""
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var arrowBtn: UIButton!
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var logs: UITextView!
-    @IBOutlet weak var logsView: UIView!
-    @IBOutlet weak var logsViewHightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var tfEmail: UITextField!
-    @IBOutlet weak var tfPhone: UITextField!
-    @IBOutlet weak var pictureSwitch: UISwitch!
-    @IBOutlet weak var deepLinkSwitch: UISwitch!
-    @IBOutlet weak var soundSwitch: UISwitch!
+class SettingsViewController: UIViewController {
     
-    var hightLogs: CGFloat = 0
-    var picture: String?
-    var sound: String?
-    var deepLink: [ActionButton]?
-    var actionLink: String?
+    // MARK: - UI Outlets
+
+    @IBOutlet weak var arrowBtn: UIButton?
+    @IBOutlet weak var scrollView: UIScrollView?
+    @IBOutlet weak var logs: UITextView?
+    @IBOutlet weak var logsView: UIView?
+    @IBOutlet weak var logsViewHightConstraint: NSLayoutConstraint?
+    @IBOutlet weak var pictureSwitch: UISwitch?
+    @IBOutlet weak var deepLinkSwitch: UISwitch?
+    @IBOutlet weak var soundSwitch: UISwitch?
+    @IBOutlet weak var registrationView: UIView?
+    
+    // MARK: - Properties
+    
+    private var hightLogs: CGFloat = 0
+    private var picture: String?
+    private var sound: String?
+    private var deepLink: [ActionButton]?
+    private var actionLink: String?
+    
+    private var registeredStatus: Bool {
+        let status = UserDefaults.standard.bool(forKey: "status")
+        return status
+    }
+    
+    // MARK: - Life cycle
 
     override func viewDidLoad() {
-        
         super.viewDidLoad()
-        tfPhone.delegate = self
-        tfEmail.delegate = self
         configLogs(for: .close)
         Devino.shared.logger = { str in
             DispatchQueue.main.async {
                 print(str)
                 logText += str
-                self.logs.text = logText }}
+                self.logs?.text = logText }}
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        hightLogs = scrollView.frame.size.height - 397
-        logsViewHightConstraint.constant = hightLogs > 0
+        registrationView?.isHidden = registeredStatus
+        hightLogs = (scrollView?.frame.size.height ?? 0) - 397
+        logsViewHightConstraint?.constant = hightLogs > 0
             ? hightLogs
-            : (logsView.isHidden ? 60 : 260)
+        : ((logsView?.isHidden ?? false) ? 60 : 260)
         // 397 - hight of all elements without logs
     }
     
-    @IBAction func doUpdateUserInfo(_ sender: Any) {
-        guard let phone = tfPhone.text, let email = tfEmail.text else { return }
-        if validUserInfo() {
-            Devino.shared.setUserData(phone: "+" + phone.components(separatedBy: CharacterSet.decimalDigits.inverted).joined(), email: email)
-        }
-        view.endEditing(true)
+    // MARK: - UI Actions
+    
+    @IBAction func touchRegistrationBtn(_ sender: UIButton) {
+        navigationController?.popToRootViewController(animated: true)
     }
     
-    private func validUserInfo() -> Bool {
-        var isValid = true
-        if let phone = tfPhone.text, !phone.isValidPhoneNumber {
-            isValid = false
-            setRedBorder(for: tfPhone)
-        }
-        if let email = tfEmail.text, !email.isValidEmail {
-            isValid = false
-            setRedBorder(for: tfEmail)
-        }
-        return isValid
-    }
-    
-    func setRedBorder(for textField: UITextField) {
-        textField.layer.borderColor = UIColor.red.cgColor
-        textField.layer.borderWidth = 1
-    }
- 
     @IBAction func touchSendGeoBtn(_ sender: Any) {
         Devino.shared.sendPushWithLocation()
 //        Devino.shared.trackLocation()
@@ -117,33 +105,43 @@ class ViewController: UIViewController {
     }
     
     @IBAction func touchShowLogsBtn(_ sender: UIButton) {
-        logsView.isHidden = !logsView.isHidden
-        configLogs(for: logsView.isHidden ? .close : .open)
+        logsView?.isHidden = !(logsView?.isHidden ?? false) 
+        configLogs(for: (logsView?.isHidden ?? false) ? .close : .open)
     }
     
     @IBAction func touchClearBtn(_ sender: Any) {
         logText.removeAll()
-        logs.text.removeAll()
+        logs?.text.removeAll()
     }
     
-    func configLogs(for state: LogState) {
+    //MARK: Functions
+    
+    func userUpdateData(phone: String?, email: String?) {
+        Devino.shared.setUserData(phone: phone, email: email)
+    }
+    
+    //MARK: Private
+    
+    private func setRedBorder(for textField: UITextField) {
+        textField.layer.borderColor = UIColor.red.cgColor
+        textField.layer.borderWidth = 1
+    }
+    
+    private func configLogs(for state: LogState) {
         if #available(iOS 11.0, *) {
-            arrowBtn.clipsToBounds = true
-            arrowBtn.layer.cornerRadius = 5
+            arrowBtn?.clipsToBounds = true
+            arrowBtn?.layer.cornerRadius = 5
             switch state {
             case .open:
-                arrowBtn.setImage(UIImage(named: "arrow_down"), for: .normal)
-                arrowBtn.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+                arrowBtn?.setImage(UIImage(named: "arrow_down"), for: .normal)
+                arrowBtn?.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
             case .close:
-                arrowBtn.setImage(UIImage(named: "arrow_up"), for: .normal)
-                arrowBtn.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
+                arrowBtn?.setImage(UIImage(named: "arrow_up"), for: .normal)
+                arrowBtn?.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
             }
         }
     }
 }
-
-
-class NavVC: UINavigationController {}
 
 enum LogState {
     case open

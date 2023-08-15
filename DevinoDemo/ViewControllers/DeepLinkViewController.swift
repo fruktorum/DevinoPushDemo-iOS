@@ -16,7 +16,7 @@ class DeepLinkViewController: UIViewController {
     
     @IBAction func doBackBtn(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let navVC = storyboard.instantiateViewController(withIdentifier: "navVC") as! NavVC
-        UIApplication.shared.windows.first?.rootViewController = navVC
+        let navigationController = storyboard.instantiateViewController(withIdentifier: "NavigationController") as! NavigationController
+        UIApplication.shared.windows.first?.rootViewController = navigationController
     }
 }
