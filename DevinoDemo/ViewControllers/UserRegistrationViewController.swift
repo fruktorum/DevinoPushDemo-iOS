@@ -37,18 +37,15 @@ class UserRegistrationViewController: UIViewController {
     // MARK: - UI Actions
     
     @IBAction private func didTapOnRegisterButton() {
-        let storyBoard: UIStoryboard = .init(name: "Main", bundle: nil)
-        guard let settingsVC = storyBoard.instantiateViewController(withIdentifier: "SettingsViewController") as? SettingsViewController else { return }
         if validUserInfo() {
-            settingsVC.userUpdateData(phone: userPhoneTextField?.text, email: userEmailTextField?.text)
+            redirectToSettingsViewController(phone: userPhoneTextField?.text, email: userEmailTextField?.text)
             clearTextFields()
             UserDefaults.standard.set(true, forKey: "status")
-            navigationController?.pushViewController(settingsVC, animated: true)
         }
     }
     
     @IBAction private func didTapOnSkipRegistrationButton() {
-        redirectToMainViewController()
+        redirectToSettingsViewController(phone: nil, email: nil)
     }
     
     @IBAction private func didTapOnConfirmRootUrlButton() {
@@ -56,14 +53,17 @@ class UserRegistrationViewController: UIViewController {
             self.showError(message: "Root API Url не должен быть пустым!")
             return
         }
-//        Devino.shared.setupApiRootUrl(with: apiUrl)
-//        showMessage("Root API URL is changed")
+        Devino.shared.setupApiRootUrl(with: apiUrl)
+        showMessage("Root API URL is changed")
         rootApiUrlTextField?.text = nil
     }
     
-    private func redirectToMainViewController() {
+    private func redirectToSettingsViewController(phone: String?, email: String?) {
         let storyboard: UIStoryboard = .init(name: "Main", bundle: nil)
         guard let settingsVC = storyboard.instantiateViewController(withIdentifier: "SettingsViewController") as? SettingsViewController else { return }
+        if let phone = phone, let email = email {
+            settingsVC.userUpdateData(phone: phone, email: email)
+        }
         navigationController?.pushViewController(settingsVC, animated: true)
     }
    
@@ -98,11 +98,11 @@ class UserRegistrationViewController: UIViewController {
 extension UserRegistrationViewController: UITextFieldDelegate {
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        if string.count == .zero {
+        if string.isEmpty {
             return true
         }
         
-        if textField.tag == .zero {
+        if textField.tag == 0 {
             guard let text = textField.text, text.count < "+# ### ###-####".count  else { return false }
             textField.text = text.applyPatternOnNumbers(pattern: "+# ### ###-####", replacmentCharacter: "#")
             return true

@@ -51,6 +51,7 @@ import _StringProcessing
   final public func registerForNotification(_ deviceToken: Foundation.Data)
   final public func getTokenCopy() -> Swift.String?
   final public func getOptions(_ userInfo: [Swift.AnyHashable : Any]) -> [Swift.String : Any]?
+  final public func setupApiRootUrl(with apiRootUrl: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -65,7 +66,7 @@ public class ActionButton {
   @objc deinit
 }
 public enum Priority : Swift.String {
-  case mediul
+  case medium
   case low
   case high
   case realtime

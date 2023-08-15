@@ -17,20 +17,15 @@ class SettingsViewController: UIViewController {
     
     // MARK: - UI Outlets
 
-    @IBOutlet weak var arrowBtn: UIButton!
-    
-    @IBOutlet weak var scrollView: UIScrollView!
-    
-    @IBOutlet weak var logs: UITextView!
-    
-    @IBOutlet weak var logsView: UIView!
-    @IBOutlet weak var logsViewHightConstraint: NSLayoutConstraint!
-    
-    @IBOutlet weak var pictureSwitch: UISwitch!
-    @IBOutlet weak var deepLinkSwitch: UISwitch!
-    @IBOutlet weak var soundSwitch: UISwitch!
-    
-    @IBOutlet weak var registrationView: UIView!
+    @IBOutlet weak var arrowBtn: UIButton?
+    @IBOutlet weak var scrollView: UIScrollView?
+    @IBOutlet weak var logs: UITextView?
+    @IBOutlet weak var logsView: UIView?
+    @IBOutlet weak var logsViewHightConstraint: NSLayoutConstraint?
+    @IBOutlet weak var pictureSwitch: UISwitch?
+    @IBOutlet weak var deepLinkSwitch: UISwitch?
+    @IBOutlet weak var soundSwitch: UISwitch?
+    @IBOutlet weak var registrationView: UIView?
     
     // MARK: - Properties
     
@@ -54,11 +49,12 @@ class SettingsViewController: UIViewController {
             DispatchQueue.main.async {
                 print(str)
                 logText += str
-                self.logs.text = logText }}
+                self.logs?.text = logText }}
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
         if !registeredStatus {
             hightLogs = scrollView.frame.size.height - 500
         } else {
@@ -67,8 +63,8 @@ class SettingsViewController: UIViewController {
         }
         logsViewHightConstraint.constant = hightLogs > 0
             ? hightLogs
-            : (logsView.isHidden ? 60 : 260)
-        // 397 - hight of all elements without logs
+        : ((logsView?.isHidden ?? false) ? 60 : 260)
+        // 500 or 424 - hight of all elements without logs depends on registration button displaying
     }
     
     // MARK: - UI Actions
@@ -136,13 +132,13 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func touchShowLogsBtn(_ sender: UIButton) {
-        logsView.isHidden = !logsView.isHidden
-        configLogs(for: logsView.isHidden ? .close : .open)
+        logsView?.isHidden = !(logsView?.isHidden ?? false) 
+        configLogs(for: (logsView?.isHidden ?? false) ? .close : .open)
     }
     
     @IBAction func touchClearBtn(_ sender: Any) {
         logText.removeAll()
-        logs.text.removeAll()
+        logs?.text.removeAll()
     }
     
     //MARK: Functions
@@ -160,15 +156,15 @@ class SettingsViewController: UIViewController {
     
     private func configLogs(for state: LogState) {
         if #available(iOS 11.0, *) {
-            arrowBtn.clipsToBounds = true
-            arrowBtn.layer.cornerRadius = 5
+            arrowBtn?.clipsToBounds = true
+            arrowBtn?.layer.cornerRadius = 5
             switch state {
             case .open:
-                arrowBtn.setImage(UIImage(named: "arrow_down"), for: .normal)
-                arrowBtn.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+                arrowBtn?.setImage(UIImage(named: "arrow_down"), for: .normal)
+                arrowBtn?.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
             case .close:
-                arrowBtn.setImage(UIImage(named: "arrow_up"), for: .normal)
-                arrowBtn.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
+                arrowBtn?.setImage(UIImage(named: "arrow_up"), for: .normal)
+                arrowBtn?.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
             }
         }
     }
