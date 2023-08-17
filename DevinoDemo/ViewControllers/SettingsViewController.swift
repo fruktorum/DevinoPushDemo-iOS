@@ -75,9 +75,8 @@ class SettingsViewController: UIViewController {
     
     @IBAction func touchSendGeoBtn(_ sender: Any) {
         Devino.shared.sendPushWithLocation()
-//        Devino.shared.trackLocation()
         
-        Devino.shared.sendCurrentSubscriptionStatus(isSubscribe: Devino.isUserNotificationsAvailable)// from settings - Devino.isUserNotificationsAvailable
+        Devino.shared.sendCurrentSubscriptionStatus(isSubscribe: Devino.isUserNotificationsAvailable)
         
         Devino.shared.getLastSubscriptionStatus { result in
             switch result {
