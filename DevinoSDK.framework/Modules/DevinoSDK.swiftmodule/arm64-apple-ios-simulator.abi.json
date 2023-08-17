@@ -760,7 +760,6 @@
                         "usr": "s:Si"
                       }
                     ],
-                    "hasDefaultArg": true,
                     "usr": "s:Sq"
                   }
                 ],
@@ -3250,2234 +3249,2227 @@
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1439,
-      "length": 4,
-      "value": "6602"
-    },
-    {
-      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1761,
+      "offset": 1754,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1845,
+      "offset": 1838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1902,
+      "offset": 1895,
       "length": 36,
       "value": "\"\n\n\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1927,
+      "offset": 1920,
       "length": 1,
       "value": "\": \n\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1937,
+      "offset": 1930,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2716,
+      "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3427,
+      "offset": 3420,
       "length": 43,
       "value": "\"Devino activate. Configurations received!\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3630,
+      "offset": 3623,
       "length": 16,
       "value": "\"TrackAppLaunch\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3653,
       "length": 53,
       "value": "\"Push token: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3712,
+      "offset": 3705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3848,
+      "offset": 3841,
       "length": 54,
       "value": "\"Subscribed if Devino.pushToken != nil: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3901,
+      "offset": 3894,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 3960,
+      "offset": 3953,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4098,
+      "offset": 4091,
       "length": 40,
       "value": "\"Push token from UserDefaults: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4137,
+      "offset": 4130,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4176,
+      "offset": 4169,
       "length": 119,
       "value": "\"Is the remote registration process completed successfully: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4287,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4565,
+      "offset": 4558,
       "length": 78,
       "value": "\"Devino.isUserNotificationsAvailable: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4641,
+      "offset": 4634,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 4745,
+      "offset": 4738,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4855,
+      "offset": 4848,
       "length": 54,
       "value": "\"Subscribed if Devino.pushToken == nil: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4908,
+      "offset": 4901,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 4967,
+      "offset": 4960,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5112,
+      "offset": 5105,
       "length": 24,
       "value": "\"TrackLaunchWithOptions\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 5196,
+      "offset": 5189,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 5291,
+      "offset": 5284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5816,
+      "offset": 5809,
       "length": 26,
       "value": "\"Push Id not found in aps\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5943,
+      "offset": 5936,
       "length": 22,
       "value": "\"Push Token not found\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6008,
+      "offset": 6001,
       "length": 48,
       "value": "\"Push Id = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6028,
+      "offset": 6021,
       "length": 1,
       "value": "\", Push Token = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6055,
+      "offset": 6048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 6204,
+      "offset": 6197,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6222,
+      "offset": 6215,
       "length": 29,
       "value": "\"Push DELIVERED: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6250,
+      "offset": 6243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6386,
+      "offset": 6379,
       "length": 44,
       "value": "\"Error: isUserNotificationsAvailable FALSE!\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6739,
+      "offset": 6732,
       "length": 73,
       "value": "\"Push OPENED by Identifier \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6794,
+      "offset": 6787,
       "length": 1,
       "value": "\": \n\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6809,
+      "offset": 6802,
       "length": 1,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 6986,
+      "offset": 6979,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7085,
+      "offset": 7078,
       "length": 19,
       "value": "\"device-terminated\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 7117,
+      "offset": 7110,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 7130,
+      "offset": 7123,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7226,
+      "offset": 7219,
       "length": 47,
       "value": "\"SendCurrentSubscriptionStatus: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7272,
+      "offset": 7265,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 7347,
+      "offset": 7340,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7482,
+      "offset": 7475,
       "length": 27,
       "value": "\"GetLastSubscriptionStatus\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8186,
+      "offset": 8179,
       "length": 25,
       "value": "\"FetchSubscriptionStatus\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8265,
+      "offset": 8258,
       "length": 18,
       "value": "\"Error = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8282,
+      "offset": 8275,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Array",
-      "offset": 8473,
+      "offset": 8466,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8543,
+      "offset": 8536,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8593,
+      "offset": 8586,
       "length": 38,
       "value": "\"Result last subscription = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8630,
+      "offset": 8623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8662,
+      "offset": 8655,
       "length": 70,
       "value": "\"Result current subscription = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8731,
+      "offset": 8724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8844,
+      "offset": 8837,
       "length": 41,
       "value": "\"Error = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8884,
+      "offset": 8877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9030,
+      "offset": 9023,
       "length": 32,
       "value": "\"Could not parse data: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9061,
+      "offset": 9054,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 9445,
+      "offset": 9438,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9537,
+      "offset": 9530,
       "length": 22,
       "value": "\"SendPushWithLocation\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 9582,
+      "offset": 9575,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 9845,
+      "offset": 9838,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9864,
+      "offset": 9857,
       "length": 58,
       "value": "\"CUSTOM EVENT: Name: \"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9894,
+      "offset": 9887,
       "length": 1,
       "value": "\"\" \n Parameters: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 9921,
+      "offset": 9914,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 10000,
+      "offset": 9993,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10098,
+      "offset": 10091,
       "length": 16,
       "value": "\"Devino Telecom\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10179,
+      "offset": 10162,
       "length": 19,
       "value": "\"Text notification\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10622,
+      "offset": 10591,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10841,
+      "offset": 10810,
       "length": 22,
       "value": "\"SendPushNotification\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 10877,
+      "offset": 10846,
       "length": 35,
       "value": "\"GetPermissionForPushNotifications\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11025,
+      "offset": 10994,
       "length": 40,
       "value": "\"PUSH sendPushWithOption: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11064,
+      "offset": 11033,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11388,
+      "offset": 11357,
       "length": 40,
       "value": "\"PUSH sendPushWithOption: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11427,
+      "offset": 11396,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11626,
+      "offset": 11595,
       "length": 10,
       "value": "\"%02.2hhx\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11665,
+      "offset": 11634,
       "length": 27,
       "value": "\"New DeviceToken: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11691,
+      "offset": 11660,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11783,
+      "offset": 11752,
       "length": 59,
       "value": "\"Error: UserDefaults in registerForNotification not found!\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 11964,
+      "offset": 11933,
       "length": 51,
       "value": "\"ExistedToken: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12014,
+      "offset": 11983,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12128,
+      "offset": 12097,
       "length": 37,
       "value": "\"DeviceToken updated in UserDefaults\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12216,
+      "offset": 12185,
       "length": 45,
       "value": "\"ExistedToken = nil, need to update UserData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 12334,
+      "offset": 12303,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12701,
+      "offset": 12670,
       "length": 5,
       "value": "\"aps\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12809,
+      "offset": 12778,
       "length": 10,
       "value": "\"settings\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 13213,
+      "offset": 13182,
       "length": 25,
       "value": "\"Api Root URL is changed\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 13273,
+      "offset": 13242,
       "length": 31,
       "value": "\"Error: UserDefaults not found\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 13419,
+      "offset": 13388,
       "length": 16,
       "value": "\"Track location\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 13508,
+      "offset": 13477,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 13750,
+      "offset": 13719,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 13851,
+      "offset": 13820,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14027,
+      "offset": 13996,
       "length": 17,
       "value": "\"content-buttons\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14079,
+      "offset": 14048,
       "length": 5,
       "value": "\"aps\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14182,
+      "offset": 14151,
       "length": 10,
       "value": "\"category\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Array",
-      "offset": 14309,
+      "offset": 14278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14350,
+      "offset": 14319,
       "length": 9,
       "value": "\"buttons\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 14394,
+      "offset": 14363,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 14468,
+      "offset": 14437,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14890,
+      "offset": 14859,
       "length": 9,
       "value": "\"caption\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 14922,
+      "offset": 14891,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Array",
-      "offset": 15297,
+      "offset": 15266,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15332,
+      "offset": 15301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15682,
+      "offset": 15651,
       "length": 7,
       "value": "\"sound\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15719,
+      "offset": 15688,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15733,
+      "offset": 15702,
       "length": 9,
       "value": "\"Default\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15810,
+      "offset": 15779,
       "length": 13,
       "value": "\"linkToMedia\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16060,
+      "offset": 16029,
       "length": 9,
       "value": "\"caption\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16109,
+      "offset": 16078,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16216,
+      "offset": 16185,
       "length": 9,
       "value": "\"buttons\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16310,
+      "offset": 16279,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16351,
+      "offset": 16320,
       "length": 28,
       "value": "\"APNs DATA = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16378,
+      "offset": 16347,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16632,
+      "offset": 16601,
       "length": 11,
       "value": "\"MySession\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 16678,
+      "offset": 16647,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 16725,
+      "offset": 16694,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17214,
+      "offset": 17183,
       "length": 47,
       "value": "\"downloadTask error: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17260,
+      "offset": 17229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17392,
+      "offset": 17361,
       "length": 9,
       "value": "\"file:\/\/\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17950,
+      "offset": 17919,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18024,
+      "offset": 17993,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18208,
+      "offset": 18177,
       "length": 5,
       "value": "\"aps\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18276,
+      "offset": 18245,
       "length": 27,
       "value": "\"Aps key not found in json\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18366,
+      "offset": 18335,
       "length": 8,
       "value": "\"pushId\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18404,
+      "offset": 18373,
       "length": 20,
       "value": "\"Push Id: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18423,
+      "offset": 18392,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18490,
+      "offset": 18459,
       "length": 8,
       "value": "\"pushId\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18560,
+      "offset": 18529,
       "length": 20,
       "value": "\"Push Id: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18579,
+      "offset": 18548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18641,
+      "offset": 18610,
       "length": 39,
       "value": "\"Push Id not found or has unknown type\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18852,
+      "offset": 18821,
       "length": 35,
       "value": "\"GetPermissionForPushNotifications\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 19076,
+      "offset": 19045,
       "length": 64,
       "value": "\"Get Permission For PushNotifications with granted = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 19139,
+      "offset": 19108,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 19857,
+      "offset": 19826,
       "length": 71,
       "value": "\"Error: UserDefaults in trackNotificationPermissionsGranted not found!\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20050,
+      "offset": 20019,
       "length": 67,
       "value": "\"IsSubscribedFlag: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20095,
+      "offset": 20064,
       "length": 1,
       "value": "\", Granted: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20116,
+      "offset": 20085,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 20233,
+      "offset": 20202,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20353,
+      "offset": 20322,
       "length": 77,
       "value": "\"If current SubscribedFlag != Granted, saved Granted with value: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20428,
+      "offset": 20397,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20572,
+      "offset": 20541,
       "length": 40,
       "value": "\"Push Notifications Permission Required\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20623,
+      "offset": 20592,
       "length": 59,
       "value": "\"Please enable push notifications permissions in settings.\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 20779,
+      "offset": 20748,
       "length": 10,
       "value": "\"Settings\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21039,
+      "offset": 21008,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 21283,
+      "offset": 21252,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21533,
+      "offset": 21502,
       "length": 11,
       "value": "\"osVersion\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21680,
+      "offset": 21649,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21742,
+      "offset": 21711,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21770,
+      "offset": 21739,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21845,
+      "offset": 21814,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21888,
+      "offset": 21857,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 21971,
+      "offset": 21940,
       "length": 21,
       "value": "\"reportedDateTimeUtc\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 22102,
+      "offset": 22071,
       "length": 12,
       "value": "\"subscribed\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 22221,
+      "offset": 22190,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 22381,
+      "offset": 22350,
       "length": 11,
       "value": "\"DELIVERED\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 22419,
+      "offset": 22388,
       "length": 8,
       "value": "\"OPENED\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 22381,
+      "offset": 22350,
       "length": 11,
       "value": "\"DELIVERED\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 22419,
+      "offset": 22388,
       "length": 8,
       "value": "\"OPENED\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23503,
+      "offset": 23472,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23562,
+      "offset": 23531,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23634,
+      "offset": 23603,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 23999,
+      "offset": 23968,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 24056,
+      "offset": 24025,
       "length": 5,
       "value": "\"api\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 24305,
+      "offset": 24274,
       "length": 12,
       "value": "\"customData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 24893,
+      "offset": 24862,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25008,
+      "offset": 24977,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25206,
+      "offset": 25175,
       "length": 12,
       "value": "\"customData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 25995,
+      "offset": 25964,
       "length": 12,
       "value": "\"customData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 26297,
+      "offset": 26266,
       "length": 11,
       "value": "\"eventName\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 26428,
+      "offset": 26397,
       "length": 11,
       "value": "\"eventData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 26650,
+      "offset": 26619,
       "length": 12,
       "value": "\"customData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 26939,
+      "offset": 26908,
       "length": 12,
       "value": "\"subscribed\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 27094,
+      "offset": 27063,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27233,
+      "offset": 27202,
       "length": 12,
       "value": "\"customData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27520,
+      "offset": 27489,
       "length": 11,
       "value": "\"longitude\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27649,
+      "offset": 27618,
       "length": 10,
       "value": "\"latitude\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27890,
+      "offset": 27859,
       "length": 12,
       "value": "\"customData\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 27986,
+      "offset": 27955,
       "length": 11,
       "value": "\"pushToken\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28067,
+      "offset": 28036,
       "length": 8,
       "value": "\"pushId\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28142,
+      "offset": 28111,
       "length": 12,
       "value": "\"actionType\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28325,
+      "offset": 28294,
       "length": 10,
       "value": "\"actionId\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28568,
+      "offset": 28537,
       "length": 10,
       "value": "\"priority\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28678,
+      "offset": 28647,
       "length": 4,
       "value": "\"to\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28777,
+      "offset": 28746,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28873,
+      "offset": 28842,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 28969,
+      "offset": 28938,
       "length": 7,
       "value": "\"badge\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 29073,
+      "offset": 29042,
       "length": 10,
       "value": "\"validity\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 29187,
+      "offset": 29156,
       "length": 12,
       "value": "\"silentPush\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 29299,
+      "offset": 29268,
       "length": 9,
       "value": "\"options\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 29415,
+      "offset": 29384,
       "length": 6,
       "value": "\"apns\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 29576,
+      "offset": 29545,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 29928,
+      "offset": 29897,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 29993,
+      "offset": 29962,
       "length": 11,
       "value": "\"app-start\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30063,
+      "offset": 30032,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30129,
+      "offset": 30098,
       "length": 5,
       "value": "\"geo\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30193,
+      "offset": 30162,
       "length": 14,
       "value": "\"subscription\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30266,
+      "offset": 30235,
       "length": 21,
       "value": "\"subscription\/status\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30341,
+      "offset": 30310,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30352,
+      "offset": 30321,
       "length": 1,
       "value": "\"\/messages\/events\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30405,
+      "offset": 30374,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30416,
+      "offset": 30385,
       "length": 1,
       "value": "\"\/messages\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30635,
+      "offset": 30604,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30646,
+      "offset": 30615,
       "length": 1,
       "value": "\"\/users\/\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30665,
+      "offset": 30634,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30674,
+      "offset": 30643,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 30730,
+      "offset": 30699,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 30982,
+      "offset": 30951,
       "length": 47,
       "value": "\"Error: UserDefaults in makeRequest not found!\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31266,
+      "offset": 31235,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31480,
+      "offset": 31449,
       "length": 15,
       "value": "\"\/push\/\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31494,
+      "offset": 31463,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31572,
+      "offset": 31541,
       "length": 15,
       "value": "\"applicationId\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31596,
+      "offset": 31565,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31613,
+      "offset": 31582,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31680,
+      "offset": 31649,
       "length": 15,
       "value": "\"\/push\/\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31694,
+      "offset": 31663,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 31775,
+      "offset": 31744,
       "length": 38,
       "value": "\"Could not create URL from components\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 31953,
+      "offset": 31922,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 32011,
+      "offset": 31980,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32117,
+      "offset": 32086,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32135,
+      "offset": 32104,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32174,
+      "offset": 32143,
       "length": 11,
       "value": "\"X-Api-Key\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32189,
+      "offset": 32158,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32196,
+      "offset": 32165,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32279,
+      "offset": 32248,
       "length": 21,
       "value": "\"Headers: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32299,
+      "offset": 32268,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32542,
+      "offset": 32511,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32578,
+      "offset": 32547,
       "length": 15,
       "value": "\"applicationId\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32653,
+      "offset": 32622,
       "length": 5,
       "value": "\"api\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32689,
+      "offset": 32658,
       "length": 6,
       "value": "\"from\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 32874,
+      "offset": 32843,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 33102,
+      "offset": 33071,
       "length": 31,
       "value": "\"Error: makeRequest not found!\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 33430,
+      "offset": 33399,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 33545,
+      "offset": 33514,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 33604,
+      "offset": 33573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 33752,
+      "offset": 33721,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 33826,
+      "offset": 33795,
       "length": 32,
       "value": "\"Request(\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 33843,
+      "offset": 33812,
       "length": 1,
       "value": "\"): url[\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 33856,
+      "offset": 33825,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 33939,
+      "offset": 33908,
       "length": 69,
       "value": "\"Body data: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 33992,
+      "offset": 33961,
       "length": 14,
       "value": "\"no body data\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34007,
+      "offset": 33976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34485,
+      "offset": 34454,
       "length": 93,
       "value": "\"Response(\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34503,
+      "offset": 34472,
       "length": 1,
       "value": "\"):[\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34553,
+      "offset": 34522,
       "length": 1,
       "value": "\"]: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34577,
+      "offset": 34546,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34740,
+      "offset": 34709,
       "length": 49,
       "value": "\"Response Error = \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34787,
+      "offset": 34756,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34825,
+      "offset": 34794,
       "length": 109,
       "value": "\"Response(\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34843,
+      "offset": 34812,
       "length": 1,
       "value": "\"):[\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 34893,
+      "offset": 34862,
       "length": 1,
       "value": "\"]: no readable data received in response\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35113,
+      "offset": 35082,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35302,
+      "offset": 35271,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 35519,
+      "offset": 35488,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 35535,
+      "offset": 35504,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 35649,
+      "offset": 35618,
       "length": 8,
       "value": "\"Devino\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35892,
+      "offset": 35861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35921,
+      "offset": 35890,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35944,
+      "offset": 35913,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35994,
+      "offset": 35963,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 35997,
+      "offset": 35966,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 36000,
+      "offset": 35969,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 36649,
+      "offset": 36618,
       "length": 33,
       "value": "\"Response: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 36681,
+      "offset": 36650,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 36760,
+      "offset": 36729,
       "length": 37,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 36796,
+      "offset": 36765,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 36846,
+      "offset": 36815,
       "length": 39,
       "value": "\"No readable data received in response\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 36959,
+      "offset": 36928,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 36963,
+      "offset": 36932,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 36966,
+      "offset": 36935,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 36971,
+      "offset": 36940,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 37104,
+      "offset": 37073,
       "length": 97,
       "value": "\"The last correct response was received more than 24 hours ago. Retry requests have been stopped\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 37463,
+      "offset": 37432,
       "length": 22,
       "value": "\"REPEATE: url[\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 37483,
+      "offset": 37452,
       "length": 1,
       "value": "\"]\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 37571,
+      "offset": 37540,
       "length": 69,
       "value": "\"Body data: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 37624,
+      "offset": 37593,
       "length": 14,
       "value": "\"no body data\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 37639,
+      "offset": 37608,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 38021,
+      "offset": 37990,
       "length": 20,
       "value": "\"Location No Access\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 38165,
+      "offset": 38134,
       "length": 17,
       "value": "\"Location Access\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 38270,
+      "offset": 38239,
       "length": 30,
       "value": "\"Location No Access (unknown)\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 38371,
+      "offset": 38340,
       "length": 35,
       "value": "\"Location services are not enabled\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 38586,
+      "offset": 38555,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "Dictionary",
-      "offset": 38731,
+      "offset": 38700,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 38897,
+      "offset": 38866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 38953,
+      "offset": 38922,
       "length": 32,
       "value": "\"Ваши координаты:\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39036,
+      "offset": 39005,
       "length": 174,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39054,
+      "offset": 39023,
       "length": 6,
       "value": "\"%.7f\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39096,
+      "offset": 39065,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39115,
+      "offset": 39084,
       "length": 6,
       "value": "\"%.7f\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39158,
+      "offset": 39127,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39209,
+      "offset": 39178,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39414,
+      "offset": 39383,
       "length": 26,
       "value": "\"Error location: \""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39439,
+      "offset": 39408,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39555,
+      "offset": 39524,
       "length": 30,
       "value": "\"Location Permission Required\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39596,
+      "offset": 39565,
       "length": 49,
       "value": "\"Please enable location permissions in settings.\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39738,
+      "offset": 39707,
       "length": 10,
       "value": "\"Settings\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 39982,
+      "offset": 39951,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 40214,
+      "offset": 40183,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40615,
+      "offset": 40584,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40639,
+      "offset": 40608,
       "length": 5,
       "value": "\"LOW\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40661,
+      "offset": 40630,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40688,
+      "offset": 40657,
       "length": 10,
       "value": "\"REALTIME\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40615,
+      "offset": 40584,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40639,
+      "offset": 40608,
       "length": 5,
       "value": "\"LOW\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40661,
+      "offset": 40630,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40688,
+      "offset": 40657,
       "length": 10,
       "value": "\"REALTIME\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 40743,
+      "offset": 40712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 40760,
+      "offset": 40729,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 40743,
+      "offset": 40712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 40760,
+      "offset": 40729,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 40743,
+      "offset": 40712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 40760,
+      "offset": 40729,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40812,
+      "offset": 40781,
       "length": 5,
       "value": "\"IOS\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40837,
+      "offset": 40806,
       "length": 9,
       "value": "\"ANDROID\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40865,
+      "offset": 40834,
       "length": 8,
       "value": "\"HUAWEI\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40812,
+      "offset": 40781,
       "length": 5,
       "value": "\"IOS\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40837,
+      "offset": 40806,
       "length": 9,
       "value": "\"ANDROID\""
     },
     {
       "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
       "kind": "StringLiteral",
-      "offset": 40865,
+      "offset": 40834,
       "length": 8,
       "value": "\"HUAWEI\""
     },
