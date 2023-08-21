@@ -89,7 +89,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func touchNotificationBtn(_ sender: Any) {
-        Devino.shared.sendPushNotification(sound: sound, buttons: deepLink, linkToMedia: picture, action: actionLink)
+        Devino.shared.sendPushNotification(title: "Devino Telecom", text: "Text notification", sound: sound, buttons: deepLink, linkToMedia: picture, action: actionLink)
     }
     
     @IBAction func switchPicture(_ sender: UISwitch) {

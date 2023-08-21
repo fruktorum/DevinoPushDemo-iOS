@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, for notification: UILocalNotification, completionHandler: @escaping () -> Void) {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         completionHandler()
     }
     
@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     public func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        //        Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
+        Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
         completionHandler(.newData)
     }
     
@@ -99,7 +99,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func activateAppByTapOnNotification(_ launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         if launchOptions?[UIApplication.LaunchOptionsKey.remoteNotification] != nil {
             if let options = launchOptions, let userInfo = options[UIApplication.LaunchOptionsKey.remoteNotification] as? [AnyHashable: Any] {
-                //                Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
+                Devino.shared.trackReceiveRemoteNotification(userInfo, appGroupsId: appGroupId)
             }
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3289DB672A92C528004A676E /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.framework */; };
 		329AD6042A87EF43008AA532 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 329AD6032A87EF43008AA532 /* IQKeyboardManagerSwift */; };
 		329AD6082A8BC48C008AA532 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AD6072A8BC48C008AA532 /* Constants.swift */; };
 		32EE23CF2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */; };
@@ -123,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */,
+				3289DB672A92C528004A676E /* DevinoSDK.framework in Frameworks */,
 				4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,7 +529,7 @@
 				CODE_SIGN_ENTITLEMENTS = DevinoDemo/DevinoDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
 				ENABLE_BITCODE = NO;
@@ -541,7 +543,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fruktorum.DevinoPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = DevinoPushDev;
@@ -559,7 +561,7 @@
 				CODE_SIGN_ENTITLEMENTS = DevinoDemo/DevinoDemo.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = TV4YN6VX49;
 				ENABLE_BITCODE = NO;
@@ -573,7 +575,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fruktorum.DevinoPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = DevinoPushAppStore;
