@@ -18,5 +18,7 @@ class DeepLinkViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let navigationController = storyboard.instantiateViewController(withIdentifier: "NavigationController") as! NavigationController
         UIApplication.shared.windows.first?.rootViewController = navigationController
+        guard let settingsVC = storyboard.instantiateViewController(withIdentifier: "SettingsViewController") as? SettingsViewController else { return }
+        navigationController.pushViewController(settingsVC, animated: false)
     }
 }
