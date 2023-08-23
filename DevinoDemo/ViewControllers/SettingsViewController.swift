@@ -36,8 +36,7 @@ class SettingsViewController: UIViewController {
     private var actionLink: String?
     
     private var registeredStatus: Bool {
-        let status = UserDefaults.standard.bool(forKey: "status")
-        return status
+        UserDefaults.standard.bool(forKey: "status")
     }
     
     // MARK: - Life cycle
