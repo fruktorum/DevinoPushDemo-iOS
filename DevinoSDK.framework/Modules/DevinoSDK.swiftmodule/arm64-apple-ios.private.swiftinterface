@@ -26,9 +26,9 @@ import _StringProcessing
     public let applicationId: Swift.Int
     public let appGroupId: Swift.String
     public let geoDataSendindInterval: Swift.Int
-    public let apiRootUrl: Swift.String
+    public var apiRootUrl: Swift.String
     public let apiRootPort: Swift.Int?
-    public init(key: Swift.String, applicationId: Swift.Int, appGroupId: Swift.String, geoDataSendindInterval: Swift.Int = 0, apiRootUrl: Swift.String = "integrationapi.net", apiRootPort: Swift.Int?)
+    public init(key: Swift.String, applicationId: Swift.Int, appGroupId: Swift.String, geoDataSendindInterval: Swift.Int = 0, apiRootUrl: Swift.String, apiRootPort: Swift.Int?)
   }
   final public var debug: Swift.Bool
   final public var logger: ((Swift.String) -> Swift.Void)?
@@ -37,6 +37,7 @@ import _StringProcessing
     get
   }
   final public func activate(with config: DevinoSDK.Devino.Configuration)
+  final public func setupApiRootUrl(with apiRootUrl: Swift.String)
   final public func trackAppLaunch()
   final public func trackLaunchWithOptions(_ options: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
   final public func trackReceiveRemoteNotification(_ userInfo: [Swift.AnyHashable : Any], appGroupsId: Swift.String)
@@ -51,7 +52,6 @@ import _StringProcessing
   final public func registerForNotification(_ deviceToken: Foundation.Data)
   final public func getTokenCopy() -> Swift.String?
   final public func getOptions(_ userInfo: [Swift.AnyHashable : Any]) -> [Swift.String : Any]?
-  final public func setupApiRootUrl(with apiRootUrl: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }

@@ -55,7 +55,7 @@ class UserRegistrationViewController: UIViewController {
         }
         Devino.shared.setupApiRootUrl(with: apiUrl)
         showMessage("Root API URL is changed")
-        rootApiUrlTextField?.text = nil
+//        rootApiUrlTextField?.text = nil
     }
     
     private func redirectToSettingsViewController(phone: String?, email: String?) {

@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #else
         applicationId = 126
         #endif
-        let config = Devino.Configuration(key: "5e2411c9-afa8-4434-b8b1-3e42369fa803", applicationId: applicationId, appGroupId: appGroupId, geoDataSendindInterval: 1, apiRootPort: 6602)
+        let config = Devino.Configuration(key: "5e2411c9-afa8-4434-b8b1-3e42369fa803", applicationId: applicationId, appGroupId: appGroupId, geoDataSendindInterval: 1, apiRootUrl: "https://integrationapi.net", apiRootPort: 6602)
         Devino.shared.activate(with: config)
         Devino.shared.trackLaunchWithOptions(launchOptions)
         // registration process with Apple Push Notification service:
