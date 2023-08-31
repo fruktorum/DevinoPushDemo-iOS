@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3289DB672A92C528004A676E /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.framework */; };
+		3289DB672A92C528004A676E /* DevinoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.xcframework */; };
 		329AD6042A87EF43008AA532 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 329AD6032A87EF43008AA532 /* IQKeyboardManagerSwift */; };
 		329AD6082A8BC48C008AA532 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AD6072A8BC48C008AA532 /* Constants.swift */; };
 		32EE23CF2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE23CE2A7BAFC3006BA5F9 /* UserRegistrationViewController.swift */; };
@@ -30,8 +30,8 @@
 		A33081DE23587FE600A9CECB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33081DD23587FE600A9CECB /* NotificationService.swift */; };
 		A33081E223587FE600A9CECB /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A33081DB23587FE600A9CECB /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FA082C6F285E04E900BBA5AD /* ActionLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */; };
-		FA082C71286192B700BBA5AD /* DevinoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.framework */; };
-		FA082C732861930400BBA5AD /* DevinoSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA082C71286192B700BBA5AD /* DevinoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.xcframework */; };
+		FA082C732861930400BBA5AD /* DevinoSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA082C70286192B700BBA5AD /* DevinoSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FA082C732861930400BBA5AD /* DevinoSDK.framework in Embed Frameworks */,
+				FA082C732861930400BBA5AD /* DevinoSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,7 +104,7 @@
 		A33081DD23587FE600A9CECB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		A33081DF23587FE600A9CECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA082C6E285E04E900BBA5AD /* ActionLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionLinkViewController.swift; sourceTree = "<group>"; };
-		FA082C70286192B700BBA5AD /* DevinoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevinoSDK.framework; sourceTree = "<group>"; };
+		FA082C70286192B700BBA5AD /* DevinoSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DevinoSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 			files = (
 				4C26535425CAF6A3000CE012 /* UserNotificationsUI.framework in Frameworks */,
 				329AD6042A87EF43008AA532 /* IQKeyboardManagerSwift in Frameworks */,
-				FA082C71286192B700BBA5AD /* DevinoSDK.framework in Frameworks */,
+				FA082C71286192B700BBA5AD /* DevinoSDK.xcframework in Frameworks */,
 				4C26535325CAF69E000CE012 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C26535225CAF68B000CE012 /* UserNotificationsUI.framework in Frameworks */,
-				3289DB672A92C528004A676E /* DevinoSDK.framework in Frameworks */,
+				3289DB672A92C528004A676E /* DevinoSDK.xcframework in Frameworks */,
 				4C26535125CAF686000CE012 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +135,7 @@
 		03BFB91F20D79AC700C89B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA082C70286192B700BBA5AD /* DevinoSDK.framework */,
+				FA082C70286192B700BBA5AD /* DevinoSDK.xcframework */,
 				03BFB92020D79AC700C89B10 /* UserNotifications.framework */,
 				03BFB92220D79AC700C89B10 /* UserNotificationsUI.framework */,
 			);

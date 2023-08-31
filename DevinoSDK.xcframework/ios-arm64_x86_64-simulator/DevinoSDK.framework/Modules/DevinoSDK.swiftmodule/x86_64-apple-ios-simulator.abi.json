@@ -1,0 +1,5669 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DevinoUNUserNotificationCenter",
+        "printedName": "DevinoUNUserNotificationCenter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setActionForUrl",
+            "printedName": "setActionForUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A24UNUserNotificationCenterC15setActionForUrlyyySScF",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC15setActionForUrlyyySScF",
+            "moduleName": "DevinoSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setActionForDismiss",
+            "printedName": "setActionForDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A24UNUserNotificationCenterC19setActionForDismissyyyycF",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC19setActionForDismissyyyycF",
+            "moduleName": "DevinoSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setActionForDefault",
+            "printedName": "setActionForDefault(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A24UNUserNotificationCenterC19setActionForDefaultyyyycF",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC19setActionForDefaultyyyycF",
+            "moduleName": "DevinoSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setActionForCustomDefault",
+            "printedName": "setActionForCustomDefault(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A24UNUserNotificationCenterC25setActionForCustomDefaultyyySScF",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC25setActionForCustomDefaultyyySScF",
+            "moduleName": "DevinoSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DevinoSDK@objc(cs)DevinoUNUserNotificationCenter(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC04userdE0_11willPresent21withCompletionHandlerySo0cdE0C_So14UNNotificationCySo0L19PresentationOptionsVctF",
+            "moduleName": "DevinoSDK",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DevinoSDK@objc(cs)DevinoUNUserNotificationCenter(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC04userdE0_10didReceive21withCompletionHandlerySo0cdE0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "DevinoSDK",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DevinoUNUserNotificationCenter",
+                "printedName": "DevinoSDK.DevinoUNUserNotificationCenter",
+                "usr": "c:@M@DevinoSDK@objc(cs)DevinoUNUserNotificationCenter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DevinoSDK@objc(cs)DevinoUNUserNotificationCenter(im)init",
+            "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterCACycfc",
+            "moduleName": "DevinoSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DevinoSDK@objc(cs)DevinoUNUserNotificationCenter",
+        "mangledName": "$s9DevinoSDK0A24UNUserNotificationCenterC",
+        "moduleName": "DevinoSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Devino",
+        "printedName": "Devino",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Configuration",
+            "printedName": "Configuration",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "key",
+                "printedName": "key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV3keySSvp",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV3keySSvp",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV3keySSvg",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV3keySSvg",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "applicationId",
+                "printedName": "applicationId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV13applicationIdSivp",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV13applicationIdSivp",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV13applicationIdSivg",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV13applicationIdSivg",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "appGroupId",
+                "printedName": "appGroupId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV10appGroupIdSSvp",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV10appGroupIdSSvp",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV10appGroupIdSSvg",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV10appGroupIdSSvg",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "geoDataSendindInterval",
+                "printedName": "geoDataSendindInterval",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV22geoDataSendindIntervalSivp",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV22geoDataSendindIntervalSivp",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV22geoDataSendindIntervalSivg",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV22geoDataSendindIntervalSivg",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "apiRootUrl",
+                "printedName": "apiRootUrl",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvp",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvp",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvg",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvg",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvs",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvs",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvM",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV10apiRootUrlSSvM",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "apiRootPort",
+                "printedName": "apiRootPort",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV11apiRootPortSiSgvp",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV11apiRootPortSiSgvp",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV11apiRootPortSiSgvg",
+                    "mangledName": "$s9DevinoSDK0A0C13ConfigurationV11apiRootPortSiSgvg",
+                    "moduleName": "DevinoSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(key:applicationId:appGroupId:geoDataSendindInterval:apiRootUrl:apiRootPort:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "DevinoSDK.Devino.Configuration",
+                    "usr": "s:9DevinoSDK0A0C13ConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "hasDefaultArg": true,
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV3key13applicationId08appGroupF022geoDataSendindInterval10apiRootUrl0mN4PortAESS_SiSSSiSSSiSgtcfc",
+                "mangledName": "$s9DevinoSDK0A0C13ConfigurationV3key13applicationId08appGroupF022geoDataSendindInterval10apiRootUrl0mN4PortAESS_SiSSSiSSSiSgtcfc",
+                "moduleName": "DevinoSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9DevinoSDK0A0C13ConfigurationV",
+            "mangledName": "$s9DevinoSDK0A0C13ConfigurationV",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK0A0C5debugSbvp",
+            "mangledName": "$s9DevinoSDK0A0C5debugSbvp",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C5debugSbvg",
+                "mangledName": "$s9DevinoSDK0A0C5debugSbvg",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C5debugSbvs",
+                "mangledName": "$s9DevinoSDK0A0C5debugSbvs",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C5debugSbvM",
+                "mangledName": "$s9DevinoSDK0A0C5debugSbvM",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logger",
+            "printedName": "logger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK0A0C6loggerySScSgvp",
+            "mangledName": "$s9DevinoSDK0A0C6loggerySScSgvp",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C6loggerySScSgvg",
+                "mangledName": "$s9DevinoSDK0A0C6loggerySScSgvg",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C6loggerySScSgvs",
+                "mangledName": "$s9DevinoSDK0A0C6loggerySScSgvs",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C6loggerySScSgvM",
+                "mangledName": "$s9DevinoSDK0A0C6loggerySScSgvM",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Devino",
+                "printedName": "DevinoSDK.Devino",
+                "usr": "c:@M@DevinoSDK@objc(cs)Devino"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK0A0C6sharedACvpZ",
+            "mangledName": "$s9DevinoSDK0A0C6sharedACvpZ",
+            "moduleName": "DevinoSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Devino",
+                    "printedName": "DevinoSDK.Devino",
+                    "usr": "c:@M@DevinoSDK@objc(cs)Devino"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C6sharedACvgZ",
+                "mangledName": "$s9DevinoSDK0A0C6sharedACvgZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Devino",
+                    "printedName": "DevinoSDK.Devino",
+                    "usr": "c:@M@DevinoSDK@objc(cs)Devino"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C6sharedACvsZ",
+                "mangledName": "$s9DevinoSDK0A0C6sharedACvsZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C6sharedACvMZ",
+                "mangledName": "$s9DevinoSDK0A0C6sharedACvMZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isUserNotificationsAvailable",
+            "printedName": "isUserNotificationsAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK0A0C28isUserNotificationsAvailableSbvpZ",
+            "mangledName": "$s9DevinoSDK0A0C28isUserNotificationsAvailableSbvpZ",
+            "moduleName": "DevinoSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A0C28isUserNotificationsAvailableSbvgZ",
+                "mangledName": "$s9DevinoSDK0A0C28isUserNotificationsAvailableSbvgZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "activate",
+            "printedName": "activate(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "DevinoSDK.Devino.Configuration",
+                "usr": "s:9DevinoSDK0A0C13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C8activate4withyAC13ConfigurationV_tF",
+            "mangledName": "$s9DevinoSDK0A0C8activate4withyAC13ConfigurationV_tF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupApiRootUrl",
+            "printedName": "setupApiRootUrl(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C15setupApiRootUrl4withySS_tF",
+            "mangledName": "$s9DevinoSDK0A0C15setupApiRootUrl4withySS_tF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackAppLaunch",
+            "printedName": "trackAppLaunch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C14trackAppLaunchyyF",
+            "mangledName": "$s9DevinoSDK0A0C14trackAppLaunchyyF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackLaunchWithOptions",
+            "printedName": "trackLaunchWithOptions(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C22trackLaunchWithOptionsyySDySo013UIApplicationdF3KeyaypGSgF",
+            "mangledName": "$s9DevinoSDK0A0C22trackLaunchWithOptionsyySDySo013UIApplicationdF3KeyaypGSgF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackReceiveRemoteNotification",
+            "printedName": "trackReceiveRemoteNotification(_:appGroupsId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C30trackReceiveRemoteNotification_11appGroupsIdySDys11AnyHashableVypG_SStF",
+            "mangledName": "$s9DevinoSDK0A0C30trackReceiveRemoteNotification_11appGroupsIdySDys11AnyHashableVypG_SStF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNotificationResponse",
+            "printedName": "trackNotificationResponse(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C25trackNotificationResponseyySo014UNNotificationE0C_SSSgtF",
+            "mangledName": "$s9DevinoSDK0A0C25trackNotificationResponseyySo014UNNotificationE0C_SSSgtF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackAppTerminated",
+            "printedName": "trackAppTerminated()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C18trackAppTerminatedyyF",
+            "mangledName": "$s9DevinoSDK0A0C18trackAppTerminatedyyF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendCurrentSubscriptionStatus",
+            "printedName": "sendCurrentSubscriptionStatus(isSubscribe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C29sendCurrentSubscriptionStatus11isSubscribeySb_tF",
+            "mangledName": "$s9DevinoSDK0A0C29sendCurrentSubscriptionStatus11isSubscribeySb_tF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastSubscriptionStatus",
+            "printedName": "getLastSubscriptionStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C25getLastSubscriptionStatusyyys6ResultOySbs5Error_pGcF",
+            "mangledName": "$s9DevinoSDK0A0C25getLastSubscriptionStatusyyys6ResultOySbs5Error_pGcF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserData",
+            "printedName": "setUserData(phone:email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C11setUserData5phone5emailySSSg_AGtF",
+            "mangledName": "$s9DevinoSDK0A0C11setUserData5phone5emailySSSg_AGtF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendPushWithLocation",
+            "printedName": "sendPushWithLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C20sendPushWithLocationyyF",
+            "mangledName": "$s9DevinoSDK0A0C20sendPushWithLocationyyF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackEvent",
+            "printedName": "trackEvent(name:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C10trackEvent4name6paramsySS_SDySSypGtF",
+            "mangledName": "$s9DevinoSDK0A0C10trackEvent4name6paramsySS_SDySSypGtF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendPushNotification",
+            "printedName": "sendPushNotification(title:text:badge:validity:priority:silentPush:options:sound:buttons:linkToMedia:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DevinoSDK.Badge?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Badge",
+                    "printedName": "DevinoSDK.Badge",
+                    "usr": "s:9DevinoSDK5BadgeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Priority",
+                "printedName": "DevinoSDK.Priority",
+                "hasDefaultArg": true,
+                "usr": "s:9DevinoSDK8PriorityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[DevinoSDK.ActionButton]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DevinoSDK.ActionButton]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionButton",
+                        "printedName": "DevinoSDK.ActionButton",
+                        "usr": "s:9DevinoSDK12ActionButtonC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C20sendPushNotification5title4text5badge8validity8priority06silentD07options5sound7buttons11linkToMedia6actionySSSg_ApA5BadgeOSgSiSgAA8PriorityOSbSgSDySSypGSgAPSayAA12ActionButtonCGSgA2PtF",
+            "mangledName": "$s9DevinoSDK0A0C20sendPushNotification5title4text5badge8validity8priority06silentD07options5sound7buttons11linkToMedia6actionySSSg_ApA5BadgeOSgSiSgAA8PriorityOSbSgSDySSypGSgAPSayAA12ActionButtonCGSgA2PtF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForNotification",
+            "printedName": "registerForNotification(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C23registerForNotificationyy10Foundation4DataVF",
+            "mangledName": "$s9DevinoSDK0A0C23registerForNotificationyy10Foundation4DataVF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTokenCopy",
+            "printedName": "getTokenCopy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C12getTokenCopySSSgyF",
+            "mangledName": "$s9DevinoSDK0A0C12getTokenCopySSSgyF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOptions",
+            "printedName": "getOptions(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DevinoSDK0A0C10getOptionsySDySSypGSgSDys11AnyHashableVypGF",
+            "mangledName": "$s9DevinoSDK0A0C10getOptionsySDySSypGSgSDys11AnyHashableVypGF",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Devino",
+                "printedName": "DevinoSDK.Devino",
+                "usr": "c:@M@DevinoSDK@objc(cs)Devino"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DevinoSDK@objc(cs)Devino(im)init",
+            "mangledName": "$s9DevinoSDK0A0CACycfc",
+            "moduleName": "DevinoSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DevinoSDK@objc(cs)Devino(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s9DevinoSDK0A0C15locationManager_18didUpdateLocationsySo010CLLocationD0C_SaySo0H0CGtF",
+            "moduleName": "DevinoSDK",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DevinoSDK@objc(cs)Devino(im)locationManager:didFailWithError:",
+            "mangledName": "$s9DevinoSDK0A0C15locationManager_16didFailWithErrorySo010CLLocationD0C_s0H0_ptF",
+            "moduleName": "DevinoSDK",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DevinoSDK@objc(cs)Devino",
+        "mangledName": "$s9DevinoSDK0A0C",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActionButton",
+        "printedName": "ActionButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(caption:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActionButton",
+                "printedName": "DevinoSDK.ActionButton",
+                "usr": "s:9DevinoSDK12ActionButtonC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DevinoSDK12ActionButtonC7caption6actionACSS_SStcfc",
+            "mangledName": "$s9DevinoSDK12ActionButtonC7caption6actionACSS_SStcfc",
+            "moduleName": "DevinoSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9DevinoSDK12ActionButtonC",
+        "mangledName": "$s9DevinoSDK12ActionButtonC",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Priority",
+        "printedName": "Priority",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DevinoSDK.Priority.Type) -> DevinoSDK.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "DevinoSDK.Priority",
+                    "usr": "s:9DevinoSDK8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DevinoSDK.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "DevinoSDK.Priority",
+                        "usr": "s:9DevinoSDK8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DevinoSDK8PriorityO6mediumyA2CmF",
+            "mangledName": "$s9DevinoSDK8PriorityO6mediumyA2CmF",
+            "moduleName": "DevinoSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DevinoSDK.Priority.Type) -> DevinoSDK.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "DevinoSDK.Priority",
+                    "usr": "s:9DevinoSDK8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DevinoSDK.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "DevinoSDK.Priority",
+                        "usr": "s:9DevinoSDK8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DevinoSDK8PriorityO3lowyA2CmF",
+            "mangledName": "$s9DevinoSDK8PriorityO3lowyA2CmF",
+            "moduleName": "DevinoSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DevinoSDK.Priority.Type) -> DevinoSDK.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "DevinoSDK.Priority",
+                    "usr": "s:9DevinoSDK8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DevinoSDK.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "DevinoSDK.Priority",
+                        "usr": "s:9DevinoSDK8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DevinoSDK8PriorityO4highyA2CmF",
+            "mangledName": "$s9DevinoSDK8PriorityO4highyA2CmF",
+            "moduleName": "DevinoSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "realtime",
+            "printedName": "realtime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DevinoSDK.Priority.Type) -> DevinoSDK.Priority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "DevinoSDK.Priority",
+                    "usr": "s:9DevinoSDK8PriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DevinoSDK.Priority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Priority",
+                        "printedName": "DevinoSDK.Priority",
+                        "usr": "s:9DevinoSDK8PriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DevinoSDK8PriorityO8realtimeyA2CmF",
+            "mangledName": "$s9DevinoSDK8PriorityO8realtimeyA2CmF",
+            "moduleName": "DevinoSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DevinoSDK.Priority?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Priority",
+                    "printedName": "DevinoSDK.Priority",
+                    "usr": "s:9DevinoSDK8PriorityO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DevinoSDK8PriorityO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9DevinoSDK8PriorityO8rawValueACSgSS_tcfc",
+            "moduleName": "DevinoSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK8PriorityO8rawValueSSvp",
+            "mangledName": "$s9DevinoSDK8PriorityO8rawValueSSvp",
+            "moduleName": "DevinoSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK8PriorityO8rawValueSSvg",
+                "mangledName": "$s9DevinoSDK8PriorityO8rawValueSSvg",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9DevinoSDK8PriorityO",
+        "mangledName": "$s9DevinoSDK8PriorityO",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Badge",
+        "printedName": "Badge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zero",
+            "printedName": "zero",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DevinoSDK.Badge.Type) -> DevinoSDK.Badge",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Badge",
+                    "printedName": "DevinoSDK.Badge",
+                    "usr": "s:9DevinoSDK5BadgeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DevinoSDK.Badge.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Badge",
+                        "printedName": "DevinoSDK.Badge",
+                        "usr": "s:9DevinoSDK5BadgeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DevinoSDK5BadgeO4zeroyA2CmF",
+            "mangledName": "$s9DevinoSDK5BadgeO4zeroyA2CmF",
+            "moduleName": "DevinoSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "one",
+            "printedName": "one",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DevinoSDK.Badge.Type) -> DevinoSDK.Badge",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Badge",
+                    "printedName": "DevinoSDK.Badge",
+                    "usr": "s:9DevinoSDK5BadgeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DevinoSDK.Badge.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Badge",
+                        "printedName": "DevinoSDK.Badge",
+                        "usr": "s:9DevinoSDK5BadgeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DevinoSDK5BadgeO3oneyA2CmF",
+            "mangledName": "$s9DevinoSDK5BadgeO3oneyA2CmF",
+            "moduleName": "DevinoSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DevinoSDK.Badge?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Badge",
+                    "printedName": "DevinoSDK.Badge",
+                    "usr": "s:9DevinoSDK5BadgeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DevinoSDK5BadgeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9DevinoSDK5BadgeO8rawValueACSgSi_tcfc",
+            "moduleName": "DevinoSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK5BadgeO8rawValueSivp",
+            "mangledName": "$s9DevinoSDK5BadgeO8rawValueSivp",
+            "moduleName": "DevinoSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK5BadgeO8rawValueSivg",
+                "mangledName": "$s9DevinoSDK5BadgeO8rawValueSivg",
+                "moduleName": "DevinoSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9DevinoSDK5BadgeO",
+        "mangledName": "$s9DevinoSDK5BadgeO",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaultsManager",
+        "printedName": "UserDefaultsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userDefaults",
+            "printedName": "userDefaults",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UserDefaults?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefaults",
+                    "printedName": "Foundation.UserDefaults",
+                    "usr": "c:objc(cs)NSUserDefaults"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvpZ",
+            "mangledName": "$s9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvpZ",
+            "moduleName": "DevinoSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UserDefaults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserDefaults",
+                        "printedName": "Foundation.UserDefaults",
+                        "usr": "c:objc(cs)NSUserDefaults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvgZ",
+                "mangledName": "$s9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvgZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.UserDefaults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserDefaults",
+                        "printedName": "Foundation.UserDefaults",
+                        "usr": "c:objc(cs)NSUserDefaults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvsZ",
+                "mangledName": "$s9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvsZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvMZ",
+                "mangledName": "$s9DevinoSDK19UserDefaultsManagerC04userD0So06NSUserD0CSgvMZ",
+                "moduleName": "DevinoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsManager",
+                "printedName": "DevinoSDK.UserDefaultsManager",
+                "usr": "c:@M@DevinoSDK@objc(cs)UserDefaultsManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DevinoSDK@objc(cs)UserDefaultsManager(im)init",
+            "mangledName": "$s9DevinoSDK19UserDefaultsManagerCACycfc",
+            "moduleName": "DevinoSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DevinoSDK@objc(cs)UserDefaultsManager",
+        "mangledName": "$s9DevinoSDK19UserDefaultsManagerC",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DevinoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DevinoNotificationService",
+        "printedName": "DevinoNotificationService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appGroupsId",
+            "printedName": "appGroupsId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DevinoSDK0A19NotificationServiceC11appGroupsIdSSSgvp",
+            "mangledName": "$s9DevinoSDK0A19NotificationServiceC11appGroupsIdSSSgvp",
+            "moduleName": "DevinoSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DevinoSDK0A19NotificationServiceC11appGroupsIdSSSgvg",
+                "mangledName": "$s9DevinoSDK0A19NotificationServiceC11appGroupsIdSSSgvg",
+                "moduleName": "DevinoSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:withContentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DevinoSDK@objc(cs)DevinoNotificationService(im)didReceiveNotificationRequest:withContentHandler:",
+            "mangledName": "$s9DevinoSDK0A19NotificationServiceC10didReceive_18withContentHandlerySo21UNNotificationRequestC_ySo0jH0CctF",
+            "moduleName": "DevinoSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "didReceiveNotificationRequest:withContentHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceExtensionTimeWillExpire",
+            "printedName": "serviceExtensionTimeWillExpire()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DevinoSDK@objc(cs)DevinoNotificationService(im)serviceExtensionTimeWillExpire",
+            "mangledName": "$s9DevinoSDK0A19NotificationServiceC30serviceExtensionTimeWillExpireyyF",
+            "moduleName": "DevinoSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "serviceExtensionTimeWillExpire",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DevinoNotificationService",
+                "printedName": "DevinoSDK.DevinoNotificationService",
+                "usr": "c:@M@DevinoSDK@objc(cs)DevinoNotificationService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DevinoSDK@objc(cs)DevinoNotificationService(im)init",
+            "mangledName": "$s9DevinoSDK0A19NotificationServiceCACycfc",
+            "moduleName": "DevinoSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DevinoSDK@objc(cs)DevinoNotificationService",
+        "mangledName": "$s9DevinoSDK0A19NotificationServiceC",
+        "moduleName": "DevinoSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UNNotificationServiceExtension",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UserNotifications.UNNotificationServiceExtension",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2035,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2380,
+      "length": 16,
+      "value": "\"Action default\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2579,
+      "length": 16,
+      "value": "\"Action dismiss\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2755,
+      "length": 30,
+      "value": "\"Action = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoUNUserNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2784,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 23,
+      "value": "\"DevinoDeviceTokenFlag\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 24,
+      "value": "\"DevinoIsSubscribedFlag\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 15,
+      "value": "\"configKeyFlag\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 12,
+      "value": "\"apiRootUrl\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 12,
+      "value": "\"appGroupId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1732,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1873,
+      "length": 36,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1898,
+      "length": 1,
+      "value": "\": \n\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2692,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3403,
+      "length": 43,
+      "value": "\"Devino activate. Configurations received!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3769,
+      "length": 25,
+      "value": "\"Api Root URL is changed\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3829,
+      "length": 31,
+      "value": "\"Error: UserDefaults not found\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4030,
+      "length": 16,
+      "value": "\"TrackAppLaunch\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4060,
+      "length": 53,
+      "value": "\"Push token: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4112,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4248,
+      "length": 54,
+      "value": "\"Subscribed if Devino.pushToken != nil: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 4360,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4498,
+      "length": 40,
+      "value": "\"Push token from UserDefaults: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4537,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4576,
+      "length": 119,
+      "value": "\"Is the remote registration process completed successfully: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4694,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 78,
+      "value": "\"Devino.isUserNotificationsAvailable: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5041,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 5145,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5255,
+      "length": 54,
+      "value": "\"Subscribed if Devino.pushToken == nil: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5308,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 5367,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5512,
+      "length": 24,
+      "value": "\"TrackLaunchWithOptions\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5691,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6216,
+      "length": 26,
+      "value": "\"Push Id not found in aps\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6343,
+      "length": 22,
+      "value": "\"Push Token not found\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6408,
+      "length": 48,
+      "value": "\"Push Id = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6428,
+      "length": 1,
+      "value": "\", Push Token = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 6604,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6622,
+      "length": 29,
+      "value": "\"Push DELIVERED: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 6786,
+      "length": 44,
+      "value": "\"Error: isUserNotificationsAvailable FALSE!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7139,
+      "length": 73,
+      "value": "\"Push OPENED by Identifier \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7194,
+      "length": 1,
+      "value": "\": \n\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7209,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 7386,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7485,
+      "length": 19,
+      "value": "\"device-terminated\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 7517,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 7530,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7626,
+      "length": 47,
+      "value": "\"SendCurrentSubscriptionStatus: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 7747,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 7882,
+      "length": 27,
+      "value": "\"GetLastSubscriptionStatus\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 8586,
+      "length": 25,
+      "value": "\"FetchSubscriptionStatus\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 8665,
+      "length": 18,
+      "value": "\"Error = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 8682,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Array",
+      "offset": 8873,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 8943,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 8993,
+      "length": 38,
+      "value": "\"Result last subscription = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9030,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9062,
+      "length": 70,
+      "value": "\"Result current subscription = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9131,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9244,
+      "length": 41,
+      "value": "\"Error = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9284,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9430,
+      "length": 32,
+      "value": "\"Could not parse data: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9461,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 9845,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 9937,
+      "length": 22,
+      "value": "\"SendPushWithLocation\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9982,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 10245,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 10264,
+      "length": 58,
+      "value": "\"CUSTOM EVENT: Name: \"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 10294,
+      "length": 1,
+      "value": "\"\" \n Parameters: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 10321,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 10400,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 10957,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11176,
+      "length": 22,
+      "value": "\"SendPushNotification\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11212,
+      "length": 35,
+      "value": "\"GetPermissionForPushNotifications\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11360,
+      "length": 40,
+      "value": "\"PUSH sendPushWithOption: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11399,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11723,
+      "length": 40,
+      "value": "\"PUSH sendPushWithOption: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11762,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 11961,
+      "length": 10,
+      "value": "\"%02.2hhx\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12000,
+      "length": 27,
+      "value": "\"New DeviceToken: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12026,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12118,
+      "length": 59,
+      "value": "\"Error: UserDefaults in registerForNotification not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12299,
+      "length": 51,
+      "value": "\"ExistedToken: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12349,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12463,
+      "length": 37,
+      "value": "\"DeviceToken updated in UserDefaults\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12551,
+      "length": 45,
+      "value": "\"ExistedToken = nil, need to update UserData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 12669,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 13036,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 13144,
+      "length": 10,
+      "value": "\"settings\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 13335,
+      "length": 16,
+      "value": "\"Track location\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13666,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13767,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 13943,
+      "length": 17,
+      "value": "\"content-buttons\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 13995,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 14098,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Array",
+      "offset": 14225,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 14266,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14310,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14384,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 14806,
+      "length": 9,
+      "value": "\"caption\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 14838,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Array",
+      "offset": 15213,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15248,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15598,
+      "length": 7,
+      "value": "\"sound\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15635,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15649,
+      "length": 9,
+      "value": "\"Default\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15726,
+      "length": 13,
+      "value": "\"linkToMedia\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15976,
+      "length": 9,
+      "value": "\"caption\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16025,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16132,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16226,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16267,
+      "length": 28,
+      "value": "\"APNs DATA = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16294,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16548,
+      "length": 11,
+      "value": "\"MySession\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16594,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16641,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17130,
+      "length": 47,
+      "value": "\"downloadTask error: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17176,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17308,
+      "length": 9,
+      "value": "\"file:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17866,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17940,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18124,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18192,
+      "length": 27,
+      "value": "\"Aps key not found in json\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18282,
+      "length": 8,
+      "value": "\"pushId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18320,
+      "length": 20,
+      "value": "\"Push Id: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18339,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18406,
+      "length": 8,
+      "value": "\"pushId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18476,
+      "length": 20,
+      "value": "\"Push Id: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18495,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18557,
+      "length": 39,
+      "value": "\"Push Id not found or has unknown type\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18768,
+      "length": 35,
+      "value": "\"GetPermissionForPushNotifications\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 18992,
+      "length": 64,
+      "value": "\"Get Permission For PushNotifications with granted = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 19055,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 19773,
+      "length": 71,
+      "value": "\"Error: UserDefaults in trackNotificationPermissionsGranted not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 19966,
+      "length": 67,
+      "value": "\"IsSubscribedFlag: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20011,
+      "length": 1,
+      "value": "\", Granted: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20032,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 20149,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20269,
+      "length": 77,
+      "value": "\"If current SubscribedFlag != Granted, saved Granted with value: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20344,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20488,
+      "length": 40,
+      "value": "\"Push Notifications Permission Required\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20539,
+      "length": 59,
+      "value": "\"Please enable push notifications permissions in settings.\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20695,
+      "length": 10,
+      "value": "\"Settings\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 20955,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21199,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21449,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21596,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21658,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21686,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21761,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21804,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 21887,
+      "length": 21,
+      "value": "\"reportedDateTimeUtc\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 22018,
+      "length": 12,
+      "value": "\"subscribed\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 22137,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 22297,
+      "length": 11,
+      "value": "\"DELIVERED\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 22335,
+      "length": 8,
+      "value": "\"OPENED\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 22297,
+      "length": 11,
+      "value": "\"DELIVERED\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 22335,
+      "length": 8,
+      "value": "\"OPENED\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 23419,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 23478,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 23550,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 23915,
+      "length": 5,
+      "value": "\"sdk\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 23972,
+      "length": 5,
+      "value": "\"api\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 24221,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 24809,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 24924,
+      "length": 7,
+      "value": "\"phone\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 25122,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 25761,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 26063,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 26194,
+      "length": 11,
+      "value": "\"eventData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 26416,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 26705,
+      "length": 12,
+      "value": "\"subscribed\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 26860,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 26999,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 27286,
+      "length": 11,
+      "value": "\"longitude\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 27415,
+      "length": 10,
+      "value": "\"latitude\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 27656,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 27752,
+      "length": 11,
+      "value": "\"pushToken\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 27833,
+      "length": 8,
+      "value": "\"pushId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 27908,
+      "length": 12,
+      "value": "\"actionType\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28091,
+      "length": 10,
+      "value": "\"actionId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28334,
+      "length": 10,
+      "value": "\"priority\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28444,
+      "length": 4,
+      "value": "\"to\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28543,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28639,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28735,
+      "length": 7,
+      "value": "\"badge\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28839,
+      "length": 10,
+      "value": "\"validity\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 28953,
+      "length": 12,
+      "value": "\"silentPush\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29065,
+      "length": 9,
+      "value": "\"options\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29181,
+      "length": 6,
+      "value": "\"apns\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 29342,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29694,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29759,
+      "length": 11,
+      "value": "\"app-start\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29829,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29895,
+      "length": 5,
+      "value": "\"geo\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 29959,
+      "length": 14,
+      "value": "\"subscription\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30032,
+      "length": 21,
+      "value": "\"subscription\/status\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30107,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30118,
+      "length": 1,
+      "value": "\"\/messages\/events\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30171,
+      "length": 21,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30182,
+      "length": 1,
+      "value": "\"\/messages\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30401,
+      "length": 40,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30412,
+      "length": 1,
+      "value": "\"\/users\/\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30431,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30440,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30496,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30748,
+      "length": 47,
+      "value": "\"Error: UserDefaults in makeRequest not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 30912,
+      "length": 28,
+      "value": "\"Error: Not create request!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 31081,
+      "length": 31,
+      "value": "\"Error: makeRequest not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31191,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 31498,
+      "length": 5,
+      "value": "\"sdk\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 31534,
+      "length": 15,
+      "value": "\"applicationId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 31609,
+      "length": 5,
+      "value": "\"api\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 31645,
+      "length": 6,
+      "value": "\"from\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 31830,
+      "length": 5,
+      "value": "\"sdk\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32058,
+      "length": 31,
+      "value": "\"Error: makeRequest not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32298,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32413,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32472,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32620,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32694,
+      "length": 32,
+      "value": "\"Request(\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32711,
+      "length": 1,
+      "value": "\"): url[\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32724,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32807,
+      "length": 69,
+      "value": "\"Body data: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32860,
+      "length": 14,
+      "value": "\"no body data\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 32875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33353,
+      "length": 93,
+      "value": "\"Response(\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33371,
+      "length": 1,
+      "value": "\"):[\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33421,
+      "length": 1,
+      "value": "\"]: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33445,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33608,
+      "length": 49,
+      "value": "\"Response Error = \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33655,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33693,
+      "length": 109,
+      "value": "\"Response(\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33711,
+      "length": 1,
+      "value": "\"):[\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 33761,
+      "length": 1,
+      "value": "\"]: no readable data received in response\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33981,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34170,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 34387,
+      "length": 17,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 34403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 34627,
+      "length": 54,
+      "value": "\"❌ Error: UserDefaults in prepareRequest not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 34787,
+      "length": 50,
+      "value": "\"❌ Error: Could not create URL from components!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 34977,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35083,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35101,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35140,
+      "length": 11,
+      "value": "\"X-Api-Key\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35155,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35162,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35295,
+      "length": 21,
+      "value": "\"Headers: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35315,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35513,
+      "length": 48,
+      "value": "\"❌ Error: UserDefaults in setupUrl not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35668,
+      "length": 40,
+      "value": "\"Error: ❌ Not found Path for request!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 35853,
+      "length": 53,
+      "value": "\"❌ Error: ApiRootUrl in UserDefaults is not found!\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36089,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36103,
+      "length": 1,
+      "value": "\"\/push\/\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36116,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36271,
+      "length": 15,
+      "value": "\"applicationId\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36295,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36312,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36400,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36414,
+      "length": 1,
+      "value": "\"\/push\/\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36427,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 36584,
+      "length": 8,
+      "value": "\"Devino\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36827,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36856,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36879,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36929,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36932,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36935,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 37499,
+      "length": 33,
+      "value": "\"Response: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 37531,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 37610,
+      "length": 37,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 37646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 37696,
+      "length": 39,
+      "value": "\"No readable data received in response\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37809,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37813,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37816,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37821,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 37954,
+      "length": 97,
+      "value": "\"The last correct response was received more than 24 hours ago. Retry requests have been stopped\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 38313,
+      "length": 22,
+      "value": "\"REPEATE: url[\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 38333,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 38421,
+      "length": 69,
+      "value": "\"Body data: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 38474,
+      "length": 14,
+      "value": "\"no body data\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 38489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 38871,
+      "length": 20,
+      "value": "\"Location No Access\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39015,
+      "length": 17,
+      "value": "\"Location Access\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39120,
+      "length": 30,
+      "value": "\"Location No Access (unknown)\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39221,
+      "length": 35,
+      "value": "\"Location services are not enabled\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "Dictionary",
+      "offset": 39581,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39747,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39803,
+      "length": 32,
+      "value": "\"Ваши координаты:\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39886,
+      "length": 174,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39904,
+      "length": 6,
+      "value": "\"%.7f\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39946,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 39965,
+      "length": 6,
+      "value": "\"%.7f\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40008,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40059,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40264,
+      "length": 26,
+      "value": "\"Error location: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40289,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40405,
+      "length": 30,
+      "value": "\"Location Permission Required\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40446,
+      "length": 49,
+      "value": "\"Please enable location permissions in settings.\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40588,
+      "length": 10,
+      "value": "\"Settings\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 40793,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 41025,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41426,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41450,
+      "length": 5,
+      "value": "\"LOW\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41472,
+      "length": 6,
+      "value": "\"HIGH\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41499,
+      "length": 10,
+      "value": "\"REALTIME\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41426,
+      "length": 8,
+      "value": "\"MEDIUM\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41450,
+      "length": 5,
+      "value": "\"LOW\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41472,
+      "length": 6,
+      "value": "\"HIGH\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41499,
+      "length": 10,
+      "value": "\"REALTIME\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41571,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41571,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41554,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41571,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41623,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41648,
+      "length": 9,
+      "value": "\"ANDROID\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41676,
+      "length": 8,
+      "value": "\"HUAWEI\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41623,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41648,
+      "length": 9,
+      "value": "\"ANDROID\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 41676,
+      "length": 8,
+      "value": "\"HUAWEI\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 28,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 19,
+      "value": "\"dd.MM.yy hh:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 21,
+      "value": "\"01.01.2000 12:12:12\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 33,
+      "value": "\"DevinoHasBeenLaunchedBeforeFlag\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/UserDefaults.swift",
+      "kind": "BooleanLiteral",
+      "offset": 452,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 27,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 5,
+      "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 3,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/Extensions\/Date.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 21,
+      "value": "\"dd.MM.yy - HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 60,
+      "value": "\"Did receive push notification: \""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "StringLiteral",
+      "offset": 1771,
+      "length": 13,
+      "value": "\"linkToMedia\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "Array",
+      "offset": 2117,
+      "length": 109,
+      "value": "[\".aiff\", \".wav\", \".mp3\", \".m4a\", \".jpg\", \".jpeg\", \".gif\", \".png\", \".mpg\", \".mpeg\", \".mpeg2\", \".mp4\", \".avi\"]"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2248,
+      "length": 6,
+      "value": "\".jpg\""
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2856,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/klimkondratsyev\/DevinoSDK-iOS-V1\/DevinoSDK\/DevinoNotificationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2955,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
